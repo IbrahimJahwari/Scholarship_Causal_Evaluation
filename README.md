@@ -1,4 +1,4 @@
-# Sweden's Nuclear Energy Production
+# Scholarship Program Causal Evaluation
 
 This repository contains code and documentation for a research project evaluating the effect of a competitive international scholarship program awarded to high-performing students in Oman. The analysis uses matching methods to estimate causal impacts on university access and first-year academic performance.
 
