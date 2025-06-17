@@ -23,7 +23,7 @@ Scholarship_Evaluation/
 │   └── rankings.csv            # University QS Overall and Subject rankings 2025 
 │
 ├── output/
-│   └── scholarship.pdf         #   Final PDF version of the report
+│   └── scholarship.pdf         # Final PDF version of the report
 │
 ├── LICENSE                     # MIT License governing reuse and distribution
 └── README.md                   # Project overview and reproduction instructions
