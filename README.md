@@ -4,6 +4,8 @@ This repository contains code and documentation for a research project evaluatin
 
 **See the output file for the full PDF report.** 
 
+This report is suitable for most readers with the intended audience being a (non-technical) scholarship management team. A technical appendix is also provided for those interested. 
+
 ## Description
 
 The program provides full financial support along with academic and application counseling. Using a matched sample of treated and non-treated students, the analysis estimates the Average Treatment Effect on the Treated (ATET) for two main outcomes: the global rank of the university attended and the student's first-year GPA.
