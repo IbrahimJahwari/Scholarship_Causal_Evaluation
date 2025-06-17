@@ -14,19 +14,19 @@ Note: This project is based on a real-world consulting engagement. Due to data c
 ```
 Scholarship_Evaluation/
 ├── code/
-│   ├── scholarship.Rmd      # Main report with code, results, and narrative (knit to PDF)
-│   ├── scholarship.R         # Core script for matching and regression models
-│   └── dataset_simulation.R        # Script used to simulate realistic student-level data
+│   ├── scholarship.Rmd        #  Main report with code, results, and narrative (knit to PDF)
+│   ├── scholarship.R          # Core script for matching and regression models
+│   └── dataset_simulation.R   # Script used to simulate realistic student-level data
 │
 ├── data/
-│   ├── simulated.csv               # Simulated dataset mimicking real structure
-│   └── rankings.csv               # University QS Overall and Subject rankings 2025 
+│   ├── simulated.csv           # Simulated dataset mimicking real structure
+│   └── rankings.csv            # University QS Overall and Subject rankings 2025 
 │
 ├── output/
-│   └── scholarship.pdf      # Final PDF version of the report
+│   └── scholarship.pdf         #   Final PDF version of the report
 │
-├── LICENSE                         # MIT License governing reuse and distribution
-└── README.md                       # Project overview and reproduction instructions
+├── LICENSE                     # MIT License governing reuse and distribution
+└── README.md                   # Project overview and reproduction instructions
 ```
 
 ## How to Reproduce
