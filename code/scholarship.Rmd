@@ -1,0 +1,581 @@
+---
+title: "Impact of the Scholarship Program on University Access and Academic Performance"
+author: "Ibrahim Al Jahwari"
+date: "June 2025"
+output:
+  pdf_document:
+    keep_tex: true
+    latex_engine: xelatex
+    number_sections: false
+fontsize: 11pt
+---
+
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(gridExtra)
+library(MatchIt)
+library(broom)
+library(knitr)
+library(kableExtra)
+library(grid)
+
+
+setwd("filepath") # remember to set your working directory
+raw <- read.csv("data/simulated.csv")
+```
+
+# Executive Summary
+This report evaluates the impact of a competitive international scholarship program awarded to high-performing secondary school students in Oman. The scholarship not only covers university tuition and living expenses but also provides recipients with academic preparation and personalized support during the application process. The program aims to improve both access to high-quality universities and students’ success once enrolled.
+
+To assess the effectiveness of the program, we compared students who received the scholarship to those who did not, using matching methods to ensure both groups were similar in terms of background characteristics such as region, gender, and intended field of study. We then estimated the difference in outcomes between the two groups, focusing on two main measures: the average rank of the university attended and the student’s GPA in their first year.
+
+The results show that the scholarship had a clear and meaningful impact. On average, recipients attended universities ranked 60 places higher than their matched peers and achieved higher academic performance, with first-year GPA gains of approximately 0.06 points. These effects were consistent across most regions and subject areas, although some variation was observed due to differences in sample size and field-specific challenges.
+
+The program appeared particularly impactful in regions such as Al Batinah North, Al Dakhiliyah, Muscat, and Dhofar, and among students pursuing subjects like Engineering, Natural Sciences, and Life Sciences. However, the broader takeaway is that the scholarship produced positive outcomes across the board, regardless of location or discipline.
+
+Based on these findings, we recommend continuing and expanding the scholarship while maintaining its full support model. We also suggest monitoring outcomes more closely in smaller regions, providing targeted support for students in highly competitive academic fields, and considering future efforts to track long-term outcomes such as graduation and employment. While this evaluation focuses on short-term academic impacts, the program may also yield lasting benefits in students’ career trajectories and life opportunities.
+
+\newpage
+# Key Variables
+## What is the Treatment?
+
+The treatment in this case is receiving an international scholarship to pursue undergraduate studies that, in addition to all tuition and expenses being covered, provides college application counselling services and rigorous academic training for students in their desired fields. 
+
+This scholarship is therefore exclusive and well saught-after by students across Oman. Students not receiving this scholarship are often still able to pursue undergraduate studies both regionally and internationally through other scholarships that only provide the financial component (of covering tuitoin and expenses).  
+
+## Who Receives Treatment?
+
+The treatment (scholarship) allocation process takes place in two phases. Phase 1 consists of the initial 1000 students that undertake a program in which they are scored based on a variety of academic and behavioural categories. A composite score is generated (using Principle Component Analysis) that gives each student a single score relative to their peers. In phase 2, the top 40% (400) students are selected for an interview stage in which 200 students of the 400 will be selected to receive the scholarship. In this second phase, treatment assignment is based entirely on interview performance, not on the composite scores accumulated in phase 1. 
+
+```{r treatment_assignment, include=TRUE, echo=FALSE}
+raw <- raw %>% 
+  arrange(desc(composite_score)) %>%
+  mutate(
+    phase_2_eligible = row_number() <= 0.40 * n(),
+    selected_for_treatment = treatment == 1
+  )
+
+allocation_summary <- tibble::tibble(
+  Phase = c("Initial Pool (Phase 1)", "Interview Stage (Phase 2)", "Treated (Scholarship)"),
+  Count = c(nrow(raw),
+            sum(raw$phase_2_eligible),
+            sum(raw$treatment == 1)),
+  Percent = c(100,
+              round(mean(raw$phase_2_eligible) * 100, 1),
+              round(mean(raw$treatment == 1) * 100, 1))
+)
+kable(allocation_summary, caption = "Scholarship Allocation Process Summary",
+      format = "latex", booktabs = TRUE, align = "lrr") %>%
+  kable_styling(latex_options = c("striped", "hold_position"))
+```
+
+### Is Treatment Allocation Balanced?
+
+Receiving the scholarship should be independent of students' gender, region, and preferred subject area. The tables below explore that balance, where a balanced selection will have a % Treated around 20% (and conversely % Not Treated around 80%). 
+
+```{r gender_table, include=TRUE, echo=FALSE}
+gender_tab <- table(raw$gender, raw$treatment)
+
+if (nrow(gender_tab) > 0 && ncol(gender_tab) == 2) {
+
+  colnames(gender_tab) <- c("Not Treated", "Treated")
+
+  gender_df <- as.data.frame.matrix(gender_tab)
+  gender_df$Gender <- rownames(gender_df)
+  rownames(gender_df) <- NULL
+
+  gender_df <- gender_df[, c("Gender", "Not Treated", "Treated")]
+  gender_df$Total <- gender_df$`Not Treated` + gender_df$Treated
+  gender_df$`% Not Treated` <- round(gender_df$`Not Treated` / gender_df$Total * 100, 1)
+  gender_df$`% Treated` <- round(gender_df$Treated / gender_df$Total * 100, 1)
+
+  total_row <- data.frame(
+    Gender = "Total",
+    `Not Treated` = sum(gender_df$`Not Treated`),
+    `Treated` = sum(gender_df$Treated),
+    Total = sum(gender_df$Total),
+    `% Not Treated` = round(sum(gender_df$`Not Treated`) / sum(gender_df$Total) * 100, 1),
+    `% Treated` = round(sum(gender_df$Treated) / sum(gender_df$Total) * 100, 1),
+    check.names = FALSE
+  )
+
+  total_row <- total_row[, names(gender_df)]
+  gender_df <- rbind(gender_df, total_row)
+
+  kable(gender_df, caption = "Distribution by Gender and Treatment Group",
+        format = "latex", booktabs = TRUE, align = "lrrrrr", row.names = FALSE) %>%
+    kable_styling(latex_options = c("striped", "hold_position"))
+
+} else {
+  cat("Gender table could not be created — check data.")
+}
+```
+
+Gender comparisons show that there is no concern of imbalance across genders. Relative ot males, more females received the scholarship, despite there being less females in the initial pool, though the differences in % Treated values were minimal. 
+
+```{r region_table, include=TRUE, echo=FALSE}
+region_tab <- table(raw$region, raw$treatment)
+
+if (nrow(region_tab) > 0 && ncol(region_tab) == 2) {
+
+  colnames(region_tab) <- c("Not Treated", "Treated")
+
+  region_df <- as.data.frame.matrix(region_tab)
+  region_df$Region <- rownames(region_df)
+  rownames(region_df) <- NULL
+
+  region_df <- region_df[, c("Region", "Not Treated", "Treated")]
+  region_df$Total <- region_df$`Not Treated` + region_df$Treated
+  region_df$`% Not Treated` <- round(region_df$`Not Treated` / region_df$Total * 100, 1)
+  region_df$`% Treated` <- round(region_df$Treated / region_df$Total * 100, 1)
+
+  total_row <- data.frame(
+    Region = "Total",
+    `Not Treated` = sum(region_df$`Not Treated`),
+    `Treated` = sum(region_df$Treated),
+    Total = sum(region_df$Total),
+    `% Not Treated` = round(sum(region_df$`Not Treated`) / sum(region_df$Total) * 100, 1),
+    `% Treated` = round(sum(region_df$Treated) / sum(region_df$Total) * 100, 1),
+    check.names = FALSE
+  )
+
+  total_row <- total_row[, names(region_df)]
+  region_df <- rbind(region_df, total_row)
+
+  kable(region_df, caption = "Distribution by Region and Treatment Group",
+        format = "latex", booktabs = TRUE, align = "lrrrrr", row.names = FALSE) %>%
+    kable_styling(latex_options = c("striped", "hold_position"))
+
+} else {
+  cat("Region table could not be created — check data.")
+}
+```
+
+Exploring balance regionally, there were some observed regional imbalances particulalry in the governates of Ash Sharqiyah South and Musandam where the proportion of treated students was 12.3% and 35.5% respectively. Given the relatively low number of inital students from those regions, these under and over-representations can still be considered random to treatment and not systematic.
+
+```{r subject_table, include=TRUE, echo=FALSE}
+subject_tab <- table(raw$subject_area, raw$treatment)
+
+if (nrow(subject_tab) > 0 && ncol(subject_tab) == 2) {
+
+  colnames(subject_tab) <- c("Not Treated", "Treated")
+
+  subject_df <- as.data.frame.matrix(subject_tab)
+  subject_df$`Subject Area` <- rownames(subject_df)
+
+  rownames(subject_df) <- NULL
+
+  subject_df <- subject_df[, c("Subject Area", "Not Treated", "Treated")]
+
+  # Add totals and proportions
+  subject_df$Total <- subject_df$`Not Treated` + subject_df$Treated
+  subject_df$`% Not Treated` <- round(subject_df$`Not Treated` / subject_df$Total * 100, 1)
+  subject_df$`% Treated` <- round(subject_df$Treated / subject_df$Total * 100, 1)
+
+  # Create total row with matching column names
+  total_row <- data.frame(
+    `Subject Area` = "Total",
+    `Not Treated` = sum(subject_df$`Not Treated`),
+    `Treated` = sum(subject_df$Treated),
+    Total = sum(subject_df$Total),
+    `% Not Treated` = round(sum(subject_df$`Not Treated`) / sum(subject_df$Total) * 100, 1),
+    `% Treated` = round(sum(subject_df$Treated) / sum(subject_df$Total) * 100, 1),
+    check.names = FALSE
+  )
+
+  total_row <- total_row[, names(subject_df)]
+  subject_df <- rbind(subject_df, total_row)
+  
+  # Rename
+subject_df$`Subject Area` <- recode(subject_df$`Subject Area`,
+  "arts_humanities" = "Arts & Humanities",
+  "engineering_tech" = "Engineering & Tech",
+  "lifesciences_medicine" = "Life Sciences & Medicine",
+  "natural_sciences" = "Natural Sciences",
+  "socialsciences_management" = "Social Sciences & Management"
+)
+
+  kable(subject_df, caption = "Distribution by Subject Area and Treatment Group", 
+        format = "latex", booktabs = TRUE, align = "lrrrrr", row.names = FALSE) %>%
+    kable_styling(latex_options = c("striped", "hold_position"))
+
+} else {
+  cat("Subject table could not be created — check data.")
+}
+```
+
+Treatment was also balanced across subject areas. The Natural Sciences and Social Sciences & Management subjects were slightyly over-represented, though, again, these differences were minimal and not suprising given a relatively small dataset with 1000 students and 200 treated.
+
+## How is Scholarship Impact Measured?
+
+Scholarship impact is measured using two different metrics: university rank and first-year GPA. The university rank is measured by taking the average of the QS Overall and QS Subject Rankings for each students' subject area of study at their university. The first-year GPA is the students' GPA grade for their first year at university. Both of these measures are objective and easy to measure. The theory here being that students that receive this scholarship (i) are able to access better universities (measured by university rank) and (ii) are better academically prepared for their university study (measured by GPA). 
+
+The effect of the scholarship of university rank and first-year GPA was measured using Matching methdology which comapres treated & non-treated students with similar profiles. For instance, take that a student who is male, from Muscat, studying Engineering, with composite score x receives the scholarship, they are 'matched' with a similar student (Male, Musat, Engineering, ~x) that did not receive the treatment and the difference in their outcomes in university rank and GPA are measured. This process is repeated for all treated students and the measured effect is the average of all of those differences added up, which is called the Average Treatment Effect on the Treated (ATET). A more formal exploration of the identification strategy is provided in the appendix.
+
+# Main Findings
+## Effect on University Rank
+
+One of the main goals of the scholarship program is to improve access to highly ranked universities. To evaluate this, we compared students who received the scholarship to similar students who did not, matching them based on background characteristics like gender, region, academic interests, and composite score.
+
+We found that students who received the scholarship attended significantly better-ranked universities. On average, scholarship recipients enrolled in universities ranked about 62 places higher than their matched peers who did not receive the scholarship. This difference is both statistically significant and educationally meaningful.
+
+When we adjusted for additional factors (students' composite scores, gender, region, subject area), the effect remained strong and consistent — recipients still attended universities about 59 places higher in rank on average.
+
+These findings suggest that the scholarship substantially enhances students’ access to more prestigious and competitive institutions — one of its core intended benefits.
+
+
+```{r atet-unirank-table, echo=FALSE, message=FALSE, warning=FALSE}
+
+match_data <- raw %>%
+  select(treatment, composite_score, gender, region, subject_area,
+         first_year_gpa, uni_rank_average) %>%
+  na.omit()
+
+# Matching
+m.out <- matchit(
+  treatment ~ composite_score + gender + region + subject_area,
+  data = match_data,
+  method = "nearest", distance = "logit", ratio = 1
+)
+
+matched_data <- match.data(m.out)
+
+# ATET models for university rank
+atet_rank <- lm(uni_rank_average ~ treatment, data = matched_data)
+atet_rank_covadj <- lm(uni_rank_average ~ treatment + composite_score + gender + region + subject_area,
+                       data = matched_data)
+
+# Formatting function
+format_term <- function(model, term_name) {
+  tidy_mod <- tidy(model)
+  row <- tidy_mod %>% filter(term == term_name)
+  stars <- case_when(
+    row$p.value < 0.001 ~ "***",
+    row$p.value < 0.01 ~ "**",
+    row$p.value < 0.05 ~ "*",
+    row$p.value < 0.1 ~ ".",
+    TRUE ~ ""
+  )
+  sprintf("%.3f (%.3f) %s", row$estimate, row$std.error, stars)
+}
+
+# Table for university rank
+rank_table <- tibble::tibble(
+  Model = c("University Rank", "University Rank (Covariate-Adjusted)"),
+  Intercept = c(
+    format_term(atet_rank, "(Intercept)"),
+    format_term(atet_rank_covadj, "(Intercept)")
+  ),
+  Treatment = c(
+    format_term(atet_rank, "treatment"),
+    format_term(atet_rank_covadj, "treatment")
+  )
+)
+
+kable(rank_table, 
+      caption = "Effect on University Rank (ATET)",
+      col.names = c("Model", "Intercept", "Treatment"),
+      align = "lcc") %>%
+  kable_styling(full_width = FALSE, position = "center",
+                latex_options = c("striped", "hold_position"))
+
+```
+
+## Effect on First-Year GPA
+
+The scholarship is also designed to help students succeed once they begin their university studies. To measure academic preparedness, we examined students’ first-year GPA.
+
+The results showed that students who received the scholarship earned significantly higher GPAs in their first year of university. On average, their GPAs were about 0.06 points higher than those of similar students who didn’t receive the scholarship, whic is a modest but meaningful improvement in performance.
+
+This effect persisted (and slightly increased) after adjusting for students’ composite scores, gender, region and subject area. With these adjustments, the difference grew to approximately 0.07 GPA points.
+
+This suggests that the scholarship doesn’t just get students into better universities — it also helps them thrive once they get there. This may be due to the scholarship’s academic preparation and counselling components, which go beyond financial support.
+
+```{r atet-gpa-table, echo=FALSE, message=FALSE, warning=FALSE}
+# ATET models for GPA
+atet_gpa <- lm(first_year_gpa ~ treatment, data = matched_data)
+atet_gpa_covadj <- lm(first_year_gpa ~ treatment + composite_score + gender + region + subject_area,
+                      data = matched_data)
+
+# Table for GPA
+gpa_table <- tibble::tibble(
+  Model = c("First-Year GPA", "First-Year GPA (Covariate-Adjusted)"),
+  Intercept = c(
+    format_term(atet_gpa, "(Intercept)"),
+    format_term(atet_gpa_covadj, "(Intercept)")
+  ),
+  Treatment = c(
+    format_term(atet_gpa, "treatment"),
+    format_term(atet_gpa_covadj, "treatment")
+  )
+)
+
+kable(gpa_table, 
+      caption = "Effect on First-Year GPA (ATET)",
+      col.names = c("Model", "Intercept", "Treatment"),
+      align = "lcc") %>%
+  kable_styling(full_width = FALSE, position = "center",
+                latex_options = c("striped", "hold_position"))
+```
+
+## Heterogeneity by Region
+
+We also explore whether the effects of the scholarship varied across different regions of Oman. This can provide insight as to how the scholarship program is performing geographically.
+
+In terms of university rank, (statistically) significant positive effecs were found in the governates of Al Batinah South (84.9 places), Al Batinah North (78.3), Al Dakhiliyah (69.7), Muscat (60.2), and Dhofar (58.5). Students from these regions attended substantially better ranked universities if they received the scholarship. 
+
+As to first year GPA, students from Dhofar (0.125 GPA points), Al Buraimi (0.116), and Al Dakhiliyah (0.115) benefited the most. In these regions, treated students significantly outperformed their non-treated peers in university.
+
+Some regions, such as Ash Sharqiyah North, showed weaker effects, while others, like Musandam and Al Wusta, displayed more variable results. These patterns are likely due to smaller sample sizes rather than any clear indication of reduced effectiveness. Overall, the scholarship consistently produced positive outcomes across regions, with particularly strong impacts in several governates.
+
+
+```{r heterogeneity-region-plots, fig.align="center", fig.width=7, fig.height=6, message=FALSE, warning=FALSE, echo=FALSE}
+
+# GPA effect by region
+att_by_region <- raw %>%
+  group_by(region) %>%
+  do(tidy(lm(first_year_gpa ~ treatment, data = .))) %>%
+  filter(term == "treatment") %>%
+  mutate(
+    lower_ci = estimate - 1.96 * std.error,
+    upper_ci = estimate + 1.96 * std.error,
+    sig = ifelse(p.value < 0.05, "*", "")
+  )
+
+# University rank effect by region
+att_rank_by_region <- raw %>%
+  group_by(region) %>%
+  do(tidy(lm(uni_rank_average ~ treatment, data = .))) %>%
+  filter(term == "treatment") %>%
+  mutate(
+    lower_ci = estimate - 1.96 * std.error,
+    upper_ci = estimate + 1.96 * std.error,
+    sig = ifelse(p.value < 0.05, "*", "")
+  )
+
+# Plot: GPA
+plot_gpa_region <- ggplot(att_by_region, aes(x = reorder(region, estimate), y = estimate)) +
+  geom_point(aes(color = sig), size = 3) +
+  geom_errorbar(aes(ymin = lower_ci, ymax = upper_ci), width = 0.2) +
+  coord_flip() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(x = "Region", y = "First-Year GPA") +
+  scale_color_manual(values = c("black", "red")) +
+  theme_minimal(base_family = "Times") +
+  theme(legend.position = "none")
+
+# Plot: University Rank
+plot_rank_region <- ggplot(att_rank_by_region, aes(x = reorder(region, estimate), y = estimate)) +
+  geom_point(aes(color = sig), size = 3) +
+  geom_errorbar(aes(ymin = lower_ci, ymax = upper_ci), width = 0.2) +
+  coord_flip() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(x = "Region", y = "University Rank") +
+  scale_color_manual(values = c("black", "red")) +
+  theme_minimal(base_family = "Times") +
+  theme(legend.position = "none")
+
+# Caption as a LaTeX-style top title
+caption_text <- textGrob(
+  "Figure 1: Effects by Region on University Rank and First-Year GPA",
+  gp = gpar(fontsize = 11, fontfamily = "Times")
+)
+
+# Arrange plots with caption
+grid.arrange(plot_rank_region, plot_gpa_region, ncol = 2, top = caption_text)
+```
+
+
+## Heterogeneity by Subject Area
+
+We also examined whether the impact of the scholarship varied across students’ chosen academic fields. This analysis helps to understand whether the program is especially effective in supporting students pursuing certain disciplines.
+
+In terms of university rank, treated students in Life Sciences & Medicine (77.0 places), Social Sciences & Management (73.8), and Natural Sciences (62.4) attended significantly better-ranked institutions compared to their matched peers. These results suggest strong improvements in access, though they likely reflect the overall effectiveness of the program rather than clear evidence of subject-specific targeting.
+
+For first-year GPA, the largest gains were observed among students in Arts & Humanities (0.086 GPA points), Engineering & Technology (0.078), and Natural Sciences (0.074). While the differences across fields were modest, the results indicate that the program’s academic preparation may offer particular support in these areas.
+
+Overall, although there is some variation across disciplines, the broader takeaway is that the scholarship had a consistently positive impact across all academic subject areas.
+
+```{r heterogeneity-subject-plots, fig.align="center", fig.width=7, fig.height=6, message=FALSE, warning=FALSE, echo=FALSE}
+# GPA effect by subject area
+att_by_subject <- raw %>%
+  group_by(subject_area) %>%
+  do(tidy(lm(first_year_gpa ~ treatment, data = .))) %>%
+  filter(term == "treatment") %>%
+  mutate(
+    lower_ci = estimate - 1.96 * std.error,
+    upper_ci = estimate + 1.96 * std.error,
+    sig = ifelse(p.value < 0.05, "*", ""),
+    subject_label = recode(subject_area,
+      "arts_humanities" = "Arts & Humanities",
+      "engineering_tech" = "Engineering & Tech",
+      "lifesciences_medicine" = "Life Sciences & Medicine",
+      "natural_sciences" = "Natural Sciences",
+      "socialsciences_management" = "Social Sciences & Management"
+    )
+  )
+
+# University rank effect by subject area
+att_rank_by_subject <- raw %>%
+  group_by(subject_area) %>%
+  do(tidy(lm(uni_rank_average ~ treatment, data = .))) %>%
+  filter(term == "treatment") %>%
+  mutate(
+    lower_ci = estimate - 1.96 * std.error,
+    upper_ci = estimate + 1.96 * std.error,
+    sig = ifelse(p.value < 0.05, "*", ""),
+    subject_label = recode(subject_area,
+      "arts_humanities" = "Arts & Humanities",
+      "engineering_tech" = "Engineering & Tech",
+      "lifesciences_medicine" = "Life Sciences & Medicine",
+      "natural_sciences" = "Natural Sciences",
+      "socialsciences_management" = "Social Sciences & Management"
+    )
+  )
+
+# Plot: GPA
+plot_gpa_subject <- ggplot(att_by_subject, aes(x = reorder(subject_label, estimate), y = estimate)) +
+  geom_point(aes(color = sig), size = 3) +
+  geom_errorbar(aes(ymin = lower_ci, ymax = upper_ci), width = 0.2) +
+  coord_flip() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(x = "Subject Area", y = "First-Year GPA") +
+  scale_color_manual(values = c("black", "red")) +
+  theme_minimal(base_family = "Times") +
+  theme(
+    legend.position = "none",
+    plot.margin = margin(5.5, 5.5, 5.5, 5.5, "pt")
+  )
+
+# Plot: University Rank
+plot_rank_subject <- ggplot(att_rank_by_subject, aes(x = reorder(subject_label, estimate), y = estimate)) +
+  geom_point(aes(color = sig), size = 3) +
+  geom_errorbar(aes(ymin = lower_ci, ymax = upper_ci), width = 0.2) +
+  coord_flip() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(x = "Subject Area", y = "University Rank") +
+  scale_color_manual(values = c("black", "red")) +
+  theme_minimal(base_family = "Times") +
+  theme(
+    legend.position = "none",
+    plot.margin = margin(5.5, 5.5, 5.5, 5.5, "pt")
+  )
+
+# Caption
+caption_text_subject <- textGrob(
+  "Figure 2: Effects by Subject Area on University Rank and First-Year GPA",
+  gp = gpar(fontsize = 11, fontfamily = "Times")
+)
+
+grid.arrange(plot_rank_subject, plot_gpa_subject, ncol = 2, top = caption_text_subject)
+
+```
+
+# Recommendations
+
+he results from this evaluation show that the scholarship program has had a clear and measurable positive impact. Students who received the scholarship were more likely to attend higher-ranked universities and achieved better academic performance during their first year. These findings form the basis for the following three recommendations.
+
+1. Continue and expand the scholarship with its current support model
+
+The core components of the scholarship program (financial support, academic preparation, and university application guidance) appear to work well together. The evaluation shows that treated students attended universities that were, on average, over 60 places higher in global rankings compared to similar students who did not receive the scholarship. They also achieved higher first-year GPA scores, suggesting that they were better prepared academically.
+
+These benefits likely come not just from covering tuition and expenses, but also from the structured support services provided to recipients before they enroll in university. This preparation may include mentoring, counseling, test preparation, and help with selecting appropriate institutions and programs.
+
+Expanding the program would allow more high-potential students to benefit from these supports. Importantly, any expansion should maintain the current model rather than offering only financial aid. If the program were scaled without keeping the non-financial components, its impact on university placement and academic success may be reduced. Expansion could also support national goals related to equity and educational mobility, by giving more students access to international opportunities that may have previously been out of reach.
+
+2. Pay attention to regions with smaller or more variable outcomes
+
+Although the program showed overall success across nearly all regions, the results were more mixed in places like Musandam and Al Wusta. These regions had smaller sample sizes, which makes it harder to estimate effects with precision. However, it is still important to ensure that students in these areas are being reached and supported as effectively as in other parts of the country.
+
+This recommendation does not imply that the program failed in these regions, but rather that the variability calls for closer monitoring. For example, application outreach could be strengthened in regions where few students apply, or additional resources could be allocated to identify barriers that might prevent eligible students from participating.
+
+By ensuring consistent support across regions, the program can move closer to achieving equitable access and outcomes for students from all backgrounds, regardless of where they live. Without this attention, there is a risk that regional inequalities could persist or even widen if certain areas are inadvertently left behind.
+
+3. Consider additional support for students in competitive or demanding subject areas
+
+The analysis showed that students in some academic fields, such as Life Sciences and Medicine, Engineering and Technology, and Natural Sciences, appeared to benefit more from the scholarship in terms of university placement or academic performance. While differences were not large, they suggest that students in these areas may face more complex challenges when applying to top programs abroad or adjusting to university-level coursework.
+
+These fields often require navigating more competitive admissions processes, including standardized testing, interviews, and specific prerequisites. They may also involve more academically intense first-year experiences. Targeted guidance for students pursuing these fields, such as tailored test prep, additional counseling, or early exposure to field-specific expectations, could help further enhance outcomes.
+
+Providing this kind of support would ensure that the scholarship continues to meet the evolving needs of students pursuing the most demanding disciplines. It would also help level the playing field for students who may be academically capable but unfamiliar with the expectations of applying to and succeeding in competitive international programs.
+
+4. Plan for tracking longer-term outcomes
+
+At the time of this evaluation, most students were still in the early stages of their university education, so data on graduation, employment, or further study were not yet available. As a result, this analysis focused on early outcomes: the rank of the university attended and academic performance during the first year.
+
+While these are important indicators, the full impact of the scholarship may extend well beyond the first year. Attending a higher-ranked university and being better prepared academically can open up further opportunities, such as internships, postgraduate admissions, and early career placements. These advantages may translate into stronger long-term career outcomes and greater social mobility.
+
+To better understand the lasting effects of the program, it would be valuable to track students beyond their first year. This could include monitoring graduation rates, field of study, employment outcomes, or postgraduate enrollment. Even a basic follow-up survey conducted two to five years after university entry could help assess whether the benefits observed in the first year persist and translate into meaningful long-term gains.
+
+Establishing a system for long-term follow-up would also make future evaluations of the program more robust and allow policymakers to measure not just short-term success, but the full return on investment in students' futures.
+
+\newpage
+# Appendix: Technical Supplement to Identification Strategy
+
+This appendix provides a detailed overview of the empirical strategy used to estimate the causal impact of the scholarship program on students’ post-secondary outcomes. The primary objective of this analysis is to recover the Average Treatment Effect on the Treated (ATET), defined as the average effect of receiving the scholarship for those students who were actually awarded it.
+
+$$
+\text{ATET} = \mathbb{E}[Y_1 - Y_0 \mid T = 1]
+$$
+
+Here, $Y_1$ is the potential outcome if a student receives the scholarship, and $Y_0$ is the outcome if they do not. Since we only observe one of these outcomes for each student, our empirical strategy aims to estimate this difference for the treated group by using matched controls.
+
+We are interested in the effect of the scholarship on two key outcomes: the average rank of the university attended and the first-year university GPA.
+
+Because scholarship recipients were not randomly assigned, naive comparisons between treated and non-treated students would likely suffer from selection bias. That is, students who received the scholarship may differ systematically from those who did not in ways that also affect their university outcomes. To address this, we adopt a matching estimator framework that seeks to create a credible counterfactual for each treated student by pairing them with a non-treated student who had similar observable characteristics prior to treatment assignment.
+
+The credibility of this approach rests on two key identifying assumptions. The first is the Conditional Independence Assumption (CIA), also known as selection on observables. This assumption requires that, conditional on a set of covariates, potential outcomes are independent of treatment assignment:
+
+$$
+(Y_1, Y_0) \perp T \mid X
+$$
+
+This means that treatment assignment is as good as random once we account for observed characteristics $X$, which in this study include composite score, gender, region, and subject area. While the CIA is ultimately untestable, its plausibility is strengthened by the rich pre-treatment information available in the data.
+
+The second assumption is Common Support, which ensures that there is sufficient overlap in the covariate distributions of treated and control students:
+
+$$
+0 < \Pr(T = 1 \mid X) < 1
+$$
+
+This condition guarantees that for every treated student, there is a non-treated student with a similar probability of receiving treatment, enabling valid comparisons between the groups.
+
+To implement the matching, we used 1:1 nearest neighbor matching based on the propensity score, which represents the probability of receiving the scholarship given a student’s pre-treatment characteristics. The propensity score is estimated using a logistic regression model:
+
+$$
+\Pr(T_i = 1 \mid X_i) = \text{logit}^{-1}(\beta_0 + \beta_1 \cdot \text{composite}_i + \beta_2 \cdot \text{gender}_i + \beta_3 \cdot \text{region}_i + \beta_4 \cdot \text{subject}_i)
+$$
+
+In log-odds form, the same model is written as:
+
+$$
+\log\left(\frac{\Pr(T_i = 1 \mid X_i)}{1 - \Pr(T_i = 1 \mid X_i)}\right) = \beta_0 + \beta_1 \cdot \text{composite}_i + \beta_2 \cdot \text{gender}_i + \beta_3 \cdot \text{region}_i + \beta_4 \cdot \text{subject}_i
+$$
+
+This model defines how treatment was predicted based on pre-treatment data. It’s used to construct matches between students with similar probabilities of being treated.
+
+Once matched pairs were constructed, we estimated treatment effects on outcomes using linear regression models restricted to the matched sample. For each outcome (university rank and first-year GPA), we estimate:
+
+Unadjusted model:
+
+$$
+Y_i = \alpha + \tau T_i + \varepsilon_i
+$$
+
+Covariate-adjusted model:
+
+$$
+Y_i = \alpha + \tau T_i + X_i'\gamma + \varepsilon_i
+$$
+
+In these regressions, $\tau$ is the coefficient of interest (the estimated impact of receiving the scholarship). The adjusted model includes covariates $X_i$ to control for remaining variation and improve precision.
+
+We also assess covariate balance after matching to ensure that the distributions of pre-treatment characteristics are similar across treated and non-treated groups. In practice, this means checking whether the proportions of males and females, students from each region, and students in each subject area are approximately equal in the matched sample. We observe that balance is achieved in most covariates, with only minor differences in smaller regions or fields of study, which are not unexpected given limited sample sizes.
+
+Finally, it is important to note the limitations of this design. First, the identification strategy assumes there are no unobserved confounders that influence both treatment and outcomes. If, for example, students with stronger motivation or parental support were more likely to succeed and also more likely to perform well in the interview, our estimates might overstate the program’s true effect. Second, the analysis focuses only on short-term outcomes. While university rank and GPA are meaningful, they may not fully capture the long-term benefits of the scholarship, such as persistence, graduation, or labor market returns. These outcomes were not yet observable for the current cohort at the time of analysis.
+
+Despite these limitations, the matching approach applied here provides a credible and transparent estimate of the scholarship program’s early impact on academic access and performance. The results should be interpreted as the causal effect of the scholarship for students who were selected to receive it, relative to comparable students who were not.
+

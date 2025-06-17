@@ -1,0 +1,1504 @@
+University,Overall,engineering_tech,arts_humanities,lifesciences_medicine,natural_sciences,socialsciences_management
+Massachusetts Institute of Technology (MIT),1,1,7,5,2,4
+Imperial College London,2,8,750,8,9,44
+University of Oxford,3,2,2,2,3,2
+Harvard University,4,9,1,1,1,1
+University of Cambridge,5,4,3,6,4,5
+Stanford University,6,3,4,4,5,3
+ETH Zurich - Swiss Federal Institute of Technology,7,5,750,51,6,50
+National University of Singapore (NUS),8,12,31,29,21,10
+UCL,9,33,11,9,29,19
+California Institute of Technology (Caltech),10,13,229,750,7,190
+University of Pennsylvania,11,96,34,18,73,16
+"University of California, Berkeley (UCB)",12,6,5,20,8,7
+The University of Melbourne,13,52,23,15,50,27
+Peking University,14,16,28,26,12,13
+"Nanyang Technological University, Singapore (NTU)",15,11,48,110,24,21
+Cornell University,16,30,27,16,23,34
+The University of Hong Kong,17,48,18,35,58,22
+The University of Sydney,18,61,35,24,59,38
+The University of New South Wales (UNSW Sydney),19,25,47,54,44,24
+Tsinghua University,20,7,33,52,10,18
+University of Chicago,21,132,16,57,28,9
+Princeton University,22,35,13,149,13,28
+Yale University,23,56,6,12,25,8
+Université PSL,24,73,53,139,19,106
+University of Toronto,25,17,14,13,20,14
+EPFL,26,10,750,163,11,147
+The University of Edinburgh,27,59,10,19,30,48
+Technical University of Munich,28,20,750,75,18,138
+McGill University,29,45,36,28,48,39
+The Australian National University,30,77,32,141,35,36
+Seoul National University,31,38,63,38,34,41
+Johns Hopkins University,32,107,118,3,79,120
+The University of Tokyo,33,18,29,39,14,32
+Columbia University,34,50,12,23,27,11
+The University of Manchester,35,32,37,32,31,37
+The Chinese University of Hong Kong (CUHK),36,100,44,49,126,47
+Monash University,37,78,68,34,83,52
+University of British Columbia,38,31,19,25,22,20
+Fudan University,39,88,79,78,42,58
+King's College London,40,116,17,11,116,46
+The University of Queensland,41,68,110,37,56,57
+"University of California, Los Angeles (UCLA)",42,22,8,14,16,15
+New York University (NYU),43,125,9,50,130,17
+University of Michigan-Ann Arbor,44,39,20,31,41,26
+Shanghai Jiao Tong University,45,27,161,71,54,66
+Institut Polytechnique de Paris,46,40,750,750,38,271
+The Hong Kong University of Science and Technology,47,43,750,750,64,54
+Zhejiang University,48,36,128,76,57,74
+Delft University of Technology,49,14,58,750,45,209
+Kyoto University,50,65,67,66,32,81
+Northwestern University,51,69,98,65,49,29
+The London School of Economics and Political Science (LSE),52,750,54,750,750,6
+KAIST - Korea Advanced Institute of Science & Technology,53,24,203,229,39,145
+University of Bristol,54,117,89,56,81,131
+University of Amsterdam,55,175,30,45,97,30
+Yonsei University,56,87,108,67,100,59
+The Hong Kong Polytechnic University,57,74,83,272,165,62
+Carnegie Mellon University,58,19,69,750,98,96
+Ludwig-Maximilians-Universität München,59,237,40,53,47,97
+Universiti Malaya (UM),60,81,100,122,134,72
+Duke University,61,135,57,22,96,55
+City University of Hong Kong,62,99,130,381,140,70
+KU Leuven,63,51,45,27,66,61
+Sorbonne University,64,76,24,46,15,167
+The University of Auckland,65,109,61,94,147,63
+University of Texas at Austin,66,34,39,178,33,56
+Korea University,67,89,114,144,109,65
+National Taiwan University (NTU),68,82,70,80,63,73
+The University of Warwick,69,159,64,212,137,42
+University of Illinois at Urbana-Champaign,70,23,87,181,37,113
+Universidad de Buenos Aires (UBA),71,153,25,151,175,49
+"University of California, San Diego (UCSD)",72,64,91,17,40,110
+Université Paris-Saclay,73,42,326,62,17,282
+KTH Royal Institute of Technology,74,37,750,331,70,750
+Lund University,75,144,124,102,122,124
+University of Washington,76,85,104,21,46,93
+The University of Western Australia,77,215,198,114,161,170
+University of Glasgow,78,155,62,42,150,95
+Brown University,79,214,56,158,159,165
+University of Birmingham,80,119,72,61,141,115
+University of Southampton,81,120,182,117,127,238
+The University of Adelaide,82,102,213,100,101,160
+University of Leeds,83,92,55,97,107,82
+Ruprecht-Karls-Universität Heidelberg,84,750,66,33,55,218
+Tokyo Institute of Technology (Tokyo Tech),85,44,750,750,62,750
+Osaka University,86,750,750,750,750,750
+"Trinity College Dublin, The University of Dublin",87,150,49,96,158,87
+University of Technology Sydney,88,110,188,264,232,154
+Durham University,89,341,43,750,111,107
+Pennsylvania State University,90,75,99,116,67,71
+Purdue University,91,29,252,165,88,130
+Universidade de São Paulo,92,67,51,47,71,45
+Pontificia Universidad Católica de Chile (UC),93,91,21,130,176,25
+Lomonosov Moscow State University,94,80,80,306,43,84
+Universidad Nacional Autónoma de México (UNAM),95,70,22,124,72,33
+University of Alberta,96,115,162,86,103,174
+Freie Universitaet Berlin,97,292,38,135,105,108
+Pohang University of Science And Technology (POSTECH),98,83,750,357,60,750
+RWTH Aachen University,99,66,750,257,86,750
+University of Copenhagen,100,251,74,30,77,126
+King Fahd University of Petroleum & Minerals,101,41,750,750,131,118
+"KIT, Karlsruhe Institute of Technology",102,54,750,750,36,750
+Uppsala University,103,258,147,81,115,226
+University of St Andrews,104,750,59,750,178,332
+The University of Sheffield,105,105,82,129,200,151
+Utrecht University,106,253,101,48,85,105
+Tohoku University,107,101,277,172,92,319
+Boston University,108,170,106,63,173,69
+University of Nottingham,109,118,122,68,171,134
+Technical University of Denmark,110,57,750,239,132,750
+University of Zurich,111,750,105,58,125,117
+Politecnico di Milano,112,21,50,750,113,91
+Aalto University,113,165,109,750,258,189
+Georgia Institute of Technology,114,15,266,300,53,200
+University of Waterloo,115,49,364,387,74,230
+University of Wisconsin-Madison,116,121,111,85,65,114
+University of Helsinki,117,300,85,90,162,206
+Indian Institute of Technology Bombay (IITB),118,28,193,750,112,89
+University of Oslo,119,301,107,115,186,185
+Queen Mary University of London,120,174,81,69,204,127
+Western University,121,259,249,230,282,142
+Qatar University,122,192,375,276,345,246
+RMIT University,123,152,97,750,310,213
+Sungkyunkwan University(SKKU),124,750,750,750,750,750
+University of Southern California,125,160,73,167,289,98
+Humboldt-Universität zu Berlin,126,226,26,187,82,78
+University College Dublin,127,210,92,162,293,168
+Stockholm University,128,279,115,170,90,164
+Newcastle University,129,147,71,93,249,205
+"University of California, Davis",130,179,210,41,104,252
+University of Basel,131,750,282,104,300,750
+Sapienza University of Rome,132,93,41,120,61,121
+Alma Mater Studiorum - University of Bologna,133,111,42,99,94,64
+Macquarie University,134,369,167,307,287,212
+University of Science and Technology of China,135,62,750,157,26,261
+Eindhoven University of Technology,136,95,350,750,194,750
+University of Vienna,137,327,52,200,95,157
+Universiti Kebangsaan Malaysia (UKM),138,199,219,237,244,180
+Chalmers University of Technology,139,112,750,750,195,750
+Universidad de Chile,140,129,77,166,177,67
+Lancaster University,141,319,76,750,269,132
+Leiden University,142,376,46,77,168,129
+Rice University,143,219,271,750,160,750
+Aarhus University,144,239,94,107,181,156
+Nanjing University,145,122,168,222,52,163
+Universiti Sains Malaysia (USM),146,178,209,218,221,177
+Technische Universität Berlin (TU Berlin),147,46,280,750,69,382
+Universiti Putra Malaysia (UPM),148,177,294,161,202,184
+King Abdulaziz University (KAU),149,71,119,84,84,80
+Indian Institute of Technology Delhi (IITD),150,26,750,750,146,75
+University of Bath,151,213,295,369,224,161
+Michigan State University,152,137,145,128,123,77
+Nagoya University,153,163,273,210,117,364
+Texas A&M University,154,63,317,150,91,149
+University of Geneva,155,750,127,123,145,228
+"University of North Carolina, Chapel Hill",156,290,159,43,189,141
+Wageningen University & Research,157,186,750,40,78,304
+Erasmus University Rotterdam,158,750,270,83,750,40
+Université de Montréal,159,133,144,112,188,136
+University of Groningen,160,317,132,92,153,143
+University of Bern,161,750,240,111,214,750
+Hanyang University,162,124,262,341,192,204
+Al-Farabi Kazakh National University,163,304,160,750,360,326
+Complutense University of Madrid,164,271,60,134,191,123
+Universitat de Barcelona,165,138,84,55,80,109
+University of Liverpool,166,204,142,72,170,237
+Kyushu University,167,157,353,208,164,750
+University of Wollongong,168,196,283,353,205,242
+Ghent University,169,143,136,59,143,186
+The University of Exeter,170,338,90,154,210,183
+University of Cape Town,171,287,175,103,234,214
+Washington University in St. Louis,172,750,335,44,358,343
+University of Reading,173,367,93,318,260,192
+Hokkaido University,174,166,750,176,144,328
+Curtin University,175,230,336,282,203,258
+Universitat Autònoma de Barcelona,176,235,117,137,121,112
+McMaster University,177,227,367,60,259,355
+"University of California, Santa Barbara (UCSB)",178,158,171,365,51,750
+"The University of Newcastle, Australia (UON)",179,164,274,193,284,231
+Universidad de los Andes,180,193,88,750,750,60
+Universiti Teknologi Malaysia,181,103,318,750,230,251
+Waseda University,182,218,65,750,359,102
+Hamad Bin Khalifa University,183,750,750,750,750,750
+University of York,184,750,75,177,257,273
+Tecnológico de Monterrey,185,58,212,377,387,35
+Cardiff University,186,225,151,131,253,172
+École Normale Supérieure de Lyon,187,389,338,750,167,750
+Keio University,188,284,180,265,750,146
+University of Ottawa,189,276,247,173,304,303
+Technische Universität Wien,190,126,750,750,133,750
+Universität Hamburg,191,750,146,147,128,224
+Tongji University,192,168,157,750,328,750
+Queen's University at Kingston,193,208,196,182,255,187
+University of Gothenburg,194,750,237,132,350,264
+Wuhan University,195,181,284,175,120,198
+Emory University,196,750,304,64,750,389
+Deakin University,197,246,255,261,361,194
+Universidad Autónoma de Madrid,198,242,126,160,89,139
+University of Calgary,199,194,264,127,215,269
+Arizona State University,200,145,112,274,154,119
+King Saud University,201,114,276,113,148,241
+Khalifa University of Science and Technology,202,108,750,750,750,750
+Université catholique de Louvain (UCLouvain),203,211,152,143,199,158
+University of Minnesota Twin Cities,204,195,186,87,156,116
+Ecole des Ponts ParisTech,205,260,750,750,750,750
+Queen's University Belfast,206,249,195,145,265,314
+Universitas Indonesia,207,370,190,333,750,176
+The Ohio State University,208,161,102,79,136,125
+Tel Aviv University,209,750,236,216,266,383
+National Tsing Hua University,210,146,243,750,155,305
+Indian Institute of Science,211,84,750,750,108,750
+Albert-Ludwigs-Universitaet Freiburg,212,387,148,138,227,750
+Queensland University of Technology (QUT),213,198,268,255,277,208
+University of Otago,214,750,231,125,375,272
+National Cheng Kung University (NCKU),215,191,224,262,237,250
+University of Florida,216,154,286,70,124,162
+La Trobe University,217,750,374,253,750,357
+"University of Maryland, College Park",218,156,176,238,87,202
+National Yang Ming Chiao Tung University,219,295,750,256,317,750
+Universidad Nacional de Colombia,220,205,103,336,320,104
+Vrije Universiteit Amsterdam,221,750,302,105,262,195
+Eberhard Karls Universität Tübingen,222,750,86,109,248,750
+Indian Institute of Technology Kharagpur (IIT-KGP),223,60,750,750,217,191
+Friedrich-Alexander-Universität Erlangen-Nürnberg,224,254,750,305,208,750
+Loughborough University,225,190,207,750,750,222
+University of Lausanne,226,750,260,148,750,196
+Indian Institute of Technology Madras (IITM),227,53,396,750,174,240
+Rheinische Friedrich-Wilhelms-Universität Bonn,228,750,235,136,106,268
+Chulalongkorn University,229,197,174,169,250,148
+Maastricht University,230,750,750,108,750,179
+Universite libre de Bruxelles,231,316,253,189,213,188
+Universidade Estadual de Campinas (Unicamp),232,94,135,146,118,153
+University of Twente,233,202,750,750,261,750
+Technische Universität Dresden,234,97,750,204,110,750
+University of Waikato,235,750,750,750,750,397
+Università di Padova,236,169,134,101,93,248
+University of Aberdeen,237,400,288,192,371,750
+University of Rochester,238,750,392,248,301,750
+Gadjah Mada University,239,346,223,750,750,199
+Massey University,240,750,323,362,750,358
+Politecnico di Torino,241,55,194,750,197,750
+Technical University of Darmstadt,242,187,750,750,271,750
+Dartmouth College,243,750,331,356,750,262
+Victoria University of Wellington,244,750,143,750,382,233
+University of Macau,245,750,750,750,750,750
+Charles University,246,750,129,201,198,327
+University of Sussex,247,750,248,750,750,239
+Vanderbilt University,248,750,330,82,750,325
+University of Navarra,249,750,187,304,750,68
+American University of Beirut (AUB),250,273,250,213,750,285
+Taylor's University,251,750,150,750,750,135
+Harbin Institute of Technology,252,47,750,750,157,373
+Hong Kong Baptist University,253,750,314,750,750,750
+University of Göttingen,254,750,179,98,119,750
+Griffith University,255,750,289,289,750,254
+Bandung Institute of Technology (ITB),256,282,750,750,750,750
+Heriot-Watt University,257,255,395,750,379,750
+University of Warsaw,258,750,120,750,179,219
+Case Western Reserve University,259,750,750,140,750,750
+University of Lisbon,260,171,206,205,163,311
+United Arab Emirates University,261,209,750,360,365,296
+University of Canterbury | Te Whare Wānanga o Waitaha,262,350,332,750,388,348
+Indian Institute of Technology Kanpur (IITK),263,72,750,750,182,351
+Norwegian University of Science And Technology,264,134,362,271,228,750
+UCSI University,265,224,78,750,750,133
+Universitat Pompeu Fabra (Barcelona),266,750,178,394,750,85
+University of Antwerp,267,750,301,219,318,347
+University of Witwatersrand,268,750,279,250,329,388
+Tianjin University,269,106,328,750,211,750
+Universiti Teknologi PETRONAS (UTP),270,185,750,750,362,750
+Beijing Normal University,271,394,201,398,190,197
+Radboud University,272,750,218,119,311,381
+University College Cork,273,390,258,194,750,353
+University of Galway,274,343,211,311,750,378
+Dalhousie University,275,750,750,207,319,750
+University of Massachusetts Amherst,276,236,139,273,231,256
+University of Pittsburgh,277,392,173,91,357,396
+University of Porto,278,180,238,174,222,318
+Vrije Universiteit Brussel (VUB),279,352,750,292,343,375
+Ulsan National Institute of Science and Technology (UNIST),280,286,750,750,251,750
+The Hebrew University of Jerusalem,281,750,199,288,274,750
+University of Strathclyde,282,238,750,750,347,289
+Université Paris 1 Panthéon-Sorbonne,283,750,15,750,750,53
+Southern University of Science and Technology,284,750,750,750,298,750
+Middle East Technical University,285,104,230,750,247,173
+Universidad Carlos III de Madrid (UC3M),286,265,750,750,750,92
+University of Cologne,287,750,158,199,321,288
+University of Leicester,288,750,333,243,750,750
+University of Milan,289,379,169,89,193,265
+University of Surrey,290,270,750,750,395,257
+Swinburne University of Technology,291,337,750,750,750,750
+University of Bergen,292,750,228,241,346,371
+The University of Arizona,293,348,172,203,166,310
+University of Tasmania,294,750,750,327,368,750
+Xi’an Jiaotong University,295,139,750,750,283,750
+Stellenbosch University,296,750,303,227,750,370
+University of Virginia,297,344,156,221,342,229
+Bauman Moscow State Technical University,298,173,298,750,369,203
+Swansea University,299,221,309,390,268,236
+Huazhong University of Science and Technology,300,113,750,156,264,750
+Georgetown University,301,750,131,294,750,128
+Beijing Institute of Technology,302,127,750,750,206,345
+Université Paris Cité,303,750,312,88,129,750
+Linköping University,304,269,750,367,337,750
+Universidade Federal do Rio de Janeiro,305,188,121,224,233,171
+Aalborg University,306,216,360,750,750,750
+"University of California, Irvine",307,256,154,198,152,324
+Airlangga University,308,750,394,359,750,270
+Goethe-University Frankfurt am Main,309,750,133,197,219,182
+Universität Innsbruck,310,750,750,750,315,750
+North Carolina State University,311,182,750,188,216,750
+Jagiellonian University,312,750,166,323,223,341
+University of Johannesburg,313,750,750,750,372,750
+Universität Stuttgart,314,183,750,750,267,750
+Quaid-i-Azam University,315,285,750,750,276,750
+RUDN University,316,203,185,750,138,210
+Shandong University,317,374,750,393,307,750
+University of Notre Dame,318,750,138,750,381,366
+Simon Fraser University,319,750,300,750,750,336
+University of Colorado Boulder,320,228,387,321,99,400
+L.N. Gumilyov Eurasian National University (ENU),321,293,153,750,750,354
+National Technical University of Athens,322,141,750,750,303,750
+Universidad Politécnica de Madrid (UPM),323,86,324,750,338,750
+University of Miami,324,750,750,185,750,750
+University of Southern Denmark (SDU),325,750,376,223,750,750
+Daegu Gyeongbuk Institute of Science and Technology (DGIST),326,353,750,750,750,750
+Istanbul Technical University,327,79,239,750,183,309
+Kyung Hee University,328,750,378,399,750,390
+Rutgers University–New Brunswick,329,355,170,280,220,346
+University of Delhi,330,750,163,363,275,140
+Sun Yat-sen University,331,291,372,152,151,247
+American University of Sharjah,332,345,361,750,750,750
+University of East Anglia (UEA),333,750,308,317,380,750
+Université Grenoble Alpes,334,149,245,266,75,750
+Indian Institute of Technology Roorkee (IITR),335,131,750,750,309,750
+Flinders University,336,750,750,309,750,750
+Lappeenranta-Lahti University of Technology LUT,337,750,750,750,750,750
+Sichuan University,338,272,750,183,243,395
+University of the Philippines,339,750,334,374,750,294
+University of Saskatchewan,340,750,750,319,376,750
+University of South Australia,341,351,366,352,750,339
+Brunel University London,342,359,750,750,750,750
+Sharif University of Technology,343,296,750,750,391,750
+Indian Institute of Technology Guwahati (IITG),344,140,750,750,302,750
+Tufts University,345,750,750,159,750,750
+University of Oulu,346,750,750,750,750,750
+Tilburg University,347,750,750,750,750,111
+University of Naples - Federico II,348,176,217,195,212,331
+University of Victoria (UVic),349,750,377,750,750,750
+Cairo University,350,136,202,179,246,227
+Sciences Po,351,750,292,750,750,76
+"City, University of London",352,750,346,750,750,207
+National University of Sciences And Technology (NUST) Islamabad,353,128,750,750,322,365
+University of Pretoria,354,385,380,312,750,374
+Indiana University Bloomington,355,750,95,283,352,166
+University of Coimbra,356,365,315,287,356,750
+University of Luxembourg,357,750,750,750,750,750
+University of Tartu,358,750,349,397,396,750
+Gwangju Institute of Science and Technology (GIST),359,380,750,750,367,750
+Pontificia Universidad Católica del Perú,360,750,96,750,750,100
+University of Aveiro,361,391,750,750,285,750
+Sultan Qaboos University,362,261,750,750,750,330
+Xiamen University,363,362,750,403,236,301
+York University,364,750,183,750,750,211
+Saint Petersburg State University,365,233,244,750,172,235
+University of Illinois at Chicago (UIC),366,252,221,164,256,321
+Westfälische Wilhelms-Universität Münster,367,750,269,277,225,750
+Mahidol University,368,750,750,106,750,377
+University of Jordan,369,151,191,286,750,155
+University of Tehran,370,281,750,750,348,750
+George Washington University,371,750,272,234,750,169
+Lincoln University,372,750,750,750,750,750
+Universitat Politècnica de Catalunya · BarcelonaTech (UPC),373,98,307,750,229,750
+University of Turin,374,375,232,168,273,342
+University of Florence,375,750,222,258,245,750
+University of Turku,376,750,393,252,750,750
+Nankai University,377,750,750,750,196,750
+Pontificia Universidad Javeriana,378,750,149,750,750,137
+University of Tsukuba,379,373,750,314,280,750
+Technische Universität Bergakademie Freiberg,380,750,750,750,750,750
+University of Kent,381,750,278,750,750,316
+University of Pisa,382,245,181,244,149,750
+Anna University,383,172,750,750,335,750
+Western Sydney University,384,750,297,361,750,750
+South China University of Technology,385,329,750,750,323,750
+Universiti Brunei Darussalam (UBD),386,750,750,750,750,750
+Belarusian State University,387,750,750,750,750,750
+Universidade Nova de Lisboa,388,326,263,750,750,201
+Università Vita-Salute San Raffaele,389,750,750,291,750,750
+University of Cyprus (UCY),390,750,750,750,750,750
+Virginia Polytechnic Institute and State University,391,130,750,370,299,750
+National Taiwan University of Science and Technology (Taiwan Tech),392,263,750,750,750,750
+National and Kapodistrian University of Athens,393,750,265,202,393,750
+"University of California, Santa Cruz",394,750,259,750,279,750
+"University of Rome ""Tor Vergata""",395,331,750,334,241,349
+Northeastern University,396,324,750,389,398,750
+Ruhr-Universität Bochum,397,750,342,392,312,750
+Sejong University,398,336,750,750,394,750
+Université de Liège,399,383,750,299,334,750
+University of Southern Queensland,400,750,750,750,750,750
+Kazan (Volga region) Federal University,401,388,347,750,297,380
+Koç University,402,268,352,750,750,234
+Amirkabir University of Technology,403,750,750,750,750,750
+University of Canberra,404,750,750,750,750,750
+Institut National des Sciences Appliquées de Lyon (INSA),405,220,750,750,750,750
+Satbayev University,406,378,750,750,750,750
+USI - Università della Svizzera italiana,407,750,750,750,750,750
+"Birkbeck, University of London",408,750,285,750,750,750
+Masaryk University,409,750,322,371,750,750
+HSE University,410,396,184,750,374,86
+The American University in Cairo,411,325,290,750,750,286
+Auckland University of Technology (AUT),412,750,750,750,750,394
+Graz University of Technology,413,302,750,750,378,750
+Yeshiva University,414,750,750,750,750,750
+Concordia University,415,750,216,750,750,750
+Oxford Brookes University,416,334,137,750,750,99
+Technion - Israel Institute of Technology,417,234,750,344,218,750
+University of Dundee,418,750,750,180,750,750
+Boğaziçi University,419,257,261,750,750,225
+Czech Technical University in Prague,420,189,750,750,336,750
+Dublin City University,421,750,319,750,750,333
+University of Limerick,422,750,383,750,750,750
+Aston University,423,328,750,750,750,243
+Université Laval,424,750,750,232,389,750
+National Taipei University of Technology,425,244,750,750,750,750
+IPB University (a.k.a. Bogor Agricultural University),426,750,750,750,750,750
+Leibniz University Hannover,427,294,750,750,252,750
+Julius-Maximilians-Universität Würzburg,428,750,750,214,349,750
+Southeast University,429,264,750,750,750,750
+University of Science and Technology Beijing,430,361,750,750,235,750
+Central South University,431,384,750,346,390,750
+Tomsk State University,432,310,750,750,288,750
+University of Granada,433,277,164,290,239,260
+University of Sharjah,434,297,750,750,750,750
+IE University,435,750,750,750,750,150
+Iran University of Science and Technology,436,750,750,750,750,750
+Murdoch University,437,750,750,750,750,750
+Universitat Politècnica de València,438,148,750,750,333,750
+Vilnius University,439,750,390,750,750,750
+Singapore University of Technology and Design,440,750,750,750,750,750
+Università degli Studi di Pavia,441,750,369,269,330,750
+Colorado State University,442,371,750,246,207,750
+Novosibirsk State University,443,750,750,750,184,750
+Università Cattolica del Sacro Cuore,444,750,189,196,750,220
+James Cook University,445,750,750,750,750,750
+Justus-Liebig-University Giessen,446,750,750,324,750,750
+Universitat de Valencia,447,750,281,217,201,281
+Dalian University of Technology,448,305,750,750,750,750
+Hunan University,449,750,750,750,750,750
+Université de Montpellier,450,750,750,133,187,750
+University of Electronic Science and Technology of China,451,311,750,750,750,750
+Beihang University (former BUAA),452,222,750,750,325,750
+National Taiwan Normal University,453,750,208,750,750,387
+University of Kansas,454,750,355,303,750,750
+University of Stirling,455,750,750,750,750,750
+Moscow Institute of Physics and Technology (MIPT / Moscow Phystech),456,223,750,750,135,750
+Umea University,457,750,750,285,750,750
+Université de Strasbourg,458,339,296,233,114,750
+University of Guelph,459,750,750,242,750,750
+"Stony Brook University, State University of New York",460,750,750,382,238,750
+Universidad de Santiago de Chile (USACH),461,358,215,750,750,277
+Tampere University,462,750,750,750,750,750
+Universidad de Sevilla,463,299,205,383,353,352
+Macau University of Science and Technology,464,750,750,750,750,750
+Kobe University,465,750,750,750,750,368
+Universität Konstanz,466,750,399,750,750,750
+Universitat Ramon Llull,467,750,750,750,750,88
+University at Buffalo SUNY,468,342,750,372,750,750
+Washington State University,469,340,750,267,324,379
+Iowa State University,470,322,750,235,286,750
+Ben-Gurion University of The Negev,471,750,750,750,750,750
+"Essex, University of",472,750,750,750,750,302
+Johannes Kepler University Linz,473,750,750,750,750,750
+Bangor University,474,750,750,750,750,750
+Hiroshima University,475,750,750,364,750,750
+Universität Potsdam,476,750,750,750,306,750
+Ajman University,477,314,370,750,750,284
+Bilkent University,478,274,371,750,750,274
+Indian Institute of Technology Indore (IIT Indore),479,750,750,750,750,750
+Royal Holloway University of London,480,750,225,750,750,750
+Aix-Marseille University,481,333,165,155,142,367
+Pontificia Universidad Católica Argentina,482,750,750,750,750,750
+"The University of Tennessee, Knoxville",483,750,750,354,750,750
+China Agricultural University,484,750,750,231,750,750
+American University of Ras Al Khaimah ( AURAK ),485,750,750,750,750,750
+National Sun Yat-sen University,486,750,750,750,750,750
+Universität Mannheim,487,750,750,750,750,94
+University of Hawaiʻi at Mānoa,488,750,241,750,366,750
+Chongqing University,489,395,750,750,750,750
+Chung-Ang University (CAU),490,750,750,750,750,750
+Isfahan University of Technology,491,750,750,750,750,750
+Shanghai University,492,315,750,750,278,750
+UNESP,493,275,310,236,272,283
+University of Jyväskylä,494,750,750,750,750,750
+Central Queensland University (CQUniversity Australia),495,750,750,750,750,750
+Duy Tan University,496,364,750,750,377,750
+Jilin University,497,750,750,750,314,750
+National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),498,360,750,750,226,750
+Universidad de Costa Rica,499,750,750,750,750,750
+"University of California, Riverside",500,750,750,402,313,750
+Abu Dhabi University,501,386,750,750,750,178
+Colorado School of Mines,502,750,750,750,750,750
+East China Normal University,503,750,750,750,364,750
+Johannes Gutenberg Universität Mainz,504,750,305,278,209,750
+University of Huddersfield,505,750,341,750,750,750
+University of Delaware,506,750,750,750,750,750
+University of Trento,507,298,750,750,340,360
+Aristotle University of Thessaloniki,508,229,246,322,344,750
+Shenzhen University,509,750,750,750,750,750
+SOAS University of London,510,750,125,750,750,392
+Ewha Womans University,511,750,340,750,750,750
+Zhengzhou University,512,750,750,750,750,750
+Imam Abdulrahman Bin Faisal University (IAU) (formerly UNIVERSITY OF DAMMAM),513,240,750,316,750,263
+Prince Mohammad Bin Fahd university,514,289,750,750,750,335
+University of Milano-Bicocca,515,750,750,259,254,750
+Ateneo de Manila University,516,750,345,750,750,750
+Edith Cowan University,517,750,750,750,750,750
+INTI International University,518,750,750,750,750,750
+Kyungpook National University,519,750,750,750,750,750
+Sabanci University,520,309,750,750,750,393
+University of Hull,521,750,750,750,750,750
+Ural Federal University - UrFU,522,318,400,750,316,295
+Canadian University Dubai,523,750,750,750,750,376
+Pusan National University,524,750,750,750,386,750
+Universidad Austral,525,750,750,750,750,287
+Coventry University,526,750,750,750,750,750
+Universität Jena,527,750,750,335,242,750
+Missouri University of Science and Technology,528,750,750,750,750,750
+Universität Leipzig,529,750,254,245,373,750
+University of Bayreuth,530,750,750,750,750,750
+Warsaw University of Technology,531,200,750,750,296,750
+Indian Institute of Technology (BHU) Varanasi,532,750,750,750,750,750
+University of Bradford,533,750,750,750,750,750
+University of Utah,534,750,750,249,341,750
+Universidad Nacional de La Plata (UNLP),535,399,227,750,400,293
+Lahore University of Management Sciences (LUMS),536,750,750,750,750,298
+Northumbria University at Newcastle,537,750,750,750,750,750
+University of Bordeaux,538,750,750,171,185,750
+University of Eastern Finland,539,750,750,345,750,750
+Applied Science University - Bahrain,540,750,750,750,750,344
+Hitotsubashi University,541,750,750,750,750,216
+Sunway University,542,750,750,750,750,750
+Université de Fribourg,543,750,750,750,750,750
+University of Salamanca,544,750,155,750,750,359
+Universidad de Zaragoza,545,750,750,750,750,750
+Universidad Pontificia Comillas,546,750,750,750,750,750
+Northwestern Polytechnical University,547,372,750,750,750,750
+Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU),548,750,750,750,750,750
+University of Genoa,549,750,388,330,750,750
+University of Iceland,550,750,750,750,750,750
+University of Windsor,551,750,750,750,750,750
+Al Ain University,552,750,356,750,750,308
+University of Tabriz,553,750,750,750,750,750
+Hasselt University,554,750,750,750,750,750
+Jordan University of Science & Technology,555,241,750,342,750,750
+Universiti Utara Malaysia (UUM),556,750,750,750,750,276
+University of Dhaka,557,750,750,750,750,750
+University Ulm,558,750,750,350,750,750
+Peter the Great St. Petersburg Polytechnic University,559,288,750,750,750,750
+Ulster University,560,750,750,750,750,750
+Umm Al-Qura University,561,356,750,750,750,750
+Université Claude Bernard Lyon 1,562,750,750,190,180,750
+Universiti Teknologi Brunei,563,750,750,750,750,750
+Eötvös Loránd University,564,750,233,750,332,750
+Nanjing University of Science and Technology,565,750,750,750,750,750
+University of Connecticut,566,750,311,337,750,750
+Chiang Mai University,567,750,750,298,750,398
+Lebanese University,568,262,320,376,750,280
+MGIMO University,569,750,397,750,750,369
+"University of Chemistry and Technology, Prague",570,750,750,750,750,750
+University of Szeged,571,750,750,750,750,750
+University of the Punjab,572,366,750,750,750,750
+Florida State University,573,750,385,386,263,361
+Florida International University,574,750,750,750,750,338
+University of Debrecen,575,750,750,750,750,750
+National Research Tomsk Polytechnic University,576,323,750,750,750,750
+Sogang University,577,750,750,750,750,750
+Southern Cross University,578,750,750,750,750,750
+Universidad Adolfo Ibáñez,579,750,750,750,750,152
+Jawaharlal Nehru University,580,750,177,750,750,259
+Jinan University (China),581,750,750,750,750,750
+Management and Science University,582,750,750,750,750,334
+Politecnico di Bari,583,750,750,750,750,750
+Université Paul Sabatier Toulouse III,584,312,750,240,139,750
+Institut Teknologi Sepuluh Nopember (ITS Surabaya),585,397,750,750,750,750
+Singapore Management University,586,750,750,750,750,175
+Bond University,587,750,750,750,750,750
+Shoolini University of Biotechnology and Management Sciences,588,750,750,750,750,750
+The University of Georgia,589,750,750,251,750,292
+Universiti Teknologi MARA - UiTM,590,750,750,750,750,750
+University of Kwazulu-Natal,591,750,750,338,750,750
+Ain Shams University,592,267,750,315,750,750
+Nottingham Trent University,593,750,750,750,750,750
+Universität Bremen,594,750,750,750,354,750
+ITMO University,595,247,750,750,308,750
+Thammasat University,596,750,365,750,750,323
+Universitas Padjadjaran,597,750,750,750,750,750
+University of Iowa,598,750,750,220,750,750
+University of Ljubljana,599,750,750,750,750,750
+University of Texas Dallas,600,393,750,750,750,750
+Ca' Foscari University of Venice,601,750,123,750,750,750
+Illinois Institute of Technology,602,750,750,750,750,750
+King Khalid University,603,212,306,375,292,245
+"Kingston University, London",604,750,357,750,750,750
+Manchester Metropolitan University (MMU),605,750,321,750,750,750
+National Chengchi University,606,750,267,750,750,329
+Paris Lodron University of Salzburg,607,750,750,750,750,750
+Rensselaer Polytechnic Institute,608,750,750,750,750,750
+Universität des Saarlandes,609,750,750,750,750,750
+University of Crete,610,750,750,750,750,750
+University of Hohenheim,611,750,750,750,750,750
+University of South Carolina,612,750,750,750,750,750
+American University of the Middle East,613,278,750,750,750,193
+Asia Pacific University of Technology and Innovation (APU),614,750,750,750,750,750
+Brno University of Technology,615,283,750,750,750,750
+Christian-Albrechts-University zu Kiel,616,750,750,284,326,750
+Eastern Mediterranean University,617,750,750,750,750,750
+Pontifícia Universidade Católica do Rio de Janeiro,618,377,299,750,750,291
+Taipei Medical University (TMU),619,750,750,228,750,750
+University of Klagenfurt,620,750,750,750,750,750
+University of Minho,621,750,750,750,750,750
+Abo Akademi University,622,750,750,750,750,750
+American University in Dubai,623,750,750,750,750,750
+Auezov South Kazakhstan University (SKU),624,750,750,750,750,750
+Charles Darwin University,625,750,750,750,750,750
+Istanbul University,626,750,242,750,750,313
+Renmin (People's) University of China,627,750,234,750,750,159
+Tallinn University of Technology (TalTech),628,347,750,750,750,750
+Universidad de Alcalá,629,750,750,750,750,750
+Universidad de Palermo (UP),630,750,750,750,750,750
+University of South Florida,631,750,750,260,750,750
+University of Tromsø The Arctic University of Norway,632,750,750,750,750,750
+Zayed University,633,750,750,750,750,215
+Ajou University,634,750,750,750,750,750
+Boston College,635,750,214,750,750,290
+Chang Gung University,636,750,750,355,750,750
+China University of Petroleum,637,750,750,750,750,750
+Far Eastern Federal University,638,750,750,750,750,750
+Inha University,639,750,750,750,750,750
+Savitribai Phule Pune University,640,750,750,750,750,750
+Tulane University,641,750,750,379,750,750
+Universidad de Concepción,642,357,750,750,339,750
+University of Portsmouth,643,750,750,750,750,750
+Beirut Arab University,644,750,750,750,750,750
+De La Salle University,645,750,750,750,750,750
+East China University of Science and Technology,646,750,750,750,750,750
+Hacettepe University,647,368,337,301,355,750
+Lehigh University,648,750,750,750,750,750
+National Central University,649,750,750,750,370,750
+Oregon State University,650,750,750,326,270,750
+Ritsumeikan University,651,750,291,750,750,750
+Soochow University,652,750,750,750,750,750
+Symbiosis International (Deemed University),653,750,750,750,750,750
+Universiti Tenaga Nasional (UNITEN),654,750,750,750,750,750
+"University of Missouri, Columbia",655,750,750,351,750,750
+University of the Basque Country,656,750,368,750,305,750
+HUFS - Hankuk (Korea) University of Foreign Studies,657,750,287,750,750,750
+Palacký University Olomouc,658,750,750,750,750,750
+Universidade de Santiago de Compostela,659,750,382,750,327,750
+University of Houston,660,750,750,750,750,750
+University of Zagreb,661,750,750,750,750,750
+Aberystwyth University,662,750,750,750,750,750
+City University of New York,663,750,140,750,351,750
+Comenius University Bratislava,664,750,750,750,750,750
+Free University of Bozen-Bolzano,665,750,750,750,750,750
+International Islamic University Malaysia (IIUM),666,750,750,750,750,750
+ISCTE - Instituto Universitario de Lisboa,667,750,750,750,750,750
+Memorial University of Newfoundland,668,750,750,750,750,750
+National Chung Hsing University,669,750,750,750,750,750
+"Sofia University ""St. Kliment Ohridski""",670,750,257,750,750,750
+Tokyo Medical and Dental University (TMDU),671,750,750,184,750,750
+Universidad de la República (Udelar),672,750,348,750,750,750
+University of Manitoba,673,750,750,247,750,750
+University of Plymouth,674,750,750,750,750,750
+Abai Kazakh National Pedagogical University,675,750,373,750,750,750
+Bar-Ilan University,676,750,750,750,750,750
+Karl-Franzens-Universitaet Graz,677,750,251,750,750,750
+Kazakh National Agrarian University KazNAU,678,750,750,750,750,750
+Martin-Luther-Universität Halle-Wittenberg,679,750,750,325,750,750
+Universidade Federal de Minas Gerais,680,750,750,750,750,750
+University of Haifa,681,750,750,750,750,750
+China University of Mining and Technology,682,750,750,750,750,750
+"Goldsmiths, University of London",683,750,141,750,750,750
+Indian Institute of Technology Hyderabad,684,750,750,750,750,750
+Jeonbuk National University,685,750,750,750,750,750
+Prince Sultan University,686,750,750,750,750,750
+Princess Nourah bint Abdulrahman University,687,750,750,750,750,750
+Temple University,688,750,750,378,750,750
+"University of Agriculture, Faisalabad",689,750,750,395,750,750
+University of New Brunswick,690,750,750,750,750,750
+Chandigarh University,691,232,750,750,750,249
+Norwegian University of Life Sciences (UMB),692,750,750,750,750,750
+Pakistan Institute of Engineering and Applied Sciences (PIEAS),693,750,750,750,750,750
+Shiraz University,694,750,750,750,750,750
+Universidad Central de Venezuela,695,750,750,750,750,750
+Universidad de La Habana,696,750,750,750,750,750
+Universidad Panamericana (UP),697,750,750,750,750,750
+Universidade Federal de São Paulo,698,750,750,313,750,750
+Universidade Federal do Rio Grande Do Sul,699,750,359,329,750,750
+University of Brescia,700,750,750,750,750,750
+University of Greenwich,701,750,750,750,750,750
+University of Siena,702,750,750,750,750,750
+Beijing University of Chemical Technology,703,750,750,750,750,750
+Dongguk University,704,750,750,750,750,750
+Lebanese American University,705,750,750,750,750,279
+National Institute of Technology Tiruchirappalli,706,750,750,750,750,750
+Stevens Institute of Technology,707,750,750,750,750,750
+Taras Shevchenko National University of Kyiv,708,750,750,750,384,750
+University of Nebraska - Lincoln,709,750,750,358,750,750
+University of Oklahoma,710,750,750,750,750,750
+Ahlia University,711,750,750,750,750,750
+American University,712,750,339,750,750,340
+COMSATS University Islamabad,713,207,750,750,331,750
+Czech University of Life Sciences in Prague,714,750,750,750,750,750
+De Montfort University,715,750,750,750,750,750
+"Lingnan University, Hong Kong",716,750,750,750,750,750
+Nanjing Agricultural University,717,750,750,343,750,750
+Plekhanov Russian University of Economics,718,750,750,750,750,267
+Saint Joseph University of Beirut (USJ),719,750,750,750,750,750
+The National University of Science and Technology MISIS,720,750,750,750,750,750
+Ton Duc Thang University,721,750,750,750,750,750
+Université de Franche-Comté,722,750,750,750,750,750
+University of Mumbai,723,750,750,750,750,750
+Brandeis University,724,750,750,750,750,750
+Budapest University of Technology and Economics,725,231,750,750,383,750
+Diponegoro University,726,750,750,750,750,750
+Drexel University,727,750,750,750,750,750
+Effat University,728,750,750,750,750,750
+Jadavpur University,729,750,750,750,750,750
+Konkuk University,730,750,750,750,750,750
+Lanzhou University,731,750,750,750,750,750
+Middlesex University,732,750,750,750,750,750
+Riga Technical University,733,750,750,750,750,750
+Université de Lille,734,750,344,297,281,750
+Université de Rennes 1 (University of Rennes),735,750,750,750,294,750
+University of Modena and Reggio Emilia,736,750,750,750,750,750
+University of Trieste,737,750,750,750,750,750
+Universitat Rovira i Virgili,738,750,750,750,750,750
+Université Côte d\'Azur,739,750,750,750,750,750
+University of Belgrade,740,750,750,750,750,750
+Altai State University,741,750,750,750,750,750
+Carleton University,742,750,750,750,750,750
+Universidad Católica Andres Bello,743,750,750,750,750,750
+Universidad de Montevideo (UM),744,750,750,750,750,750
+Universität Regensburg,745,750,750,750,750,750
+Universiti Malaysia Pahang,746,750,750,750,750,750
+University of Central Florida,747,750,750,750,750,750
+University of the West of England,748,750,750,750,750,750
+University of Westminster,749,750,750,750,750,750
+V. N. Karazin Kharkiv National University,750,750,750,750,750,750
+Victoria University,751,750,750,750,750,750
+Vytautas Magnus University,752,750,750,750,750,750
+Wake Forest University,753,750,750,750,750,750
+Instituto Tecnológico Autónomo de México (ITAM),754,750,750,750,750,244
+Kaunas University of Technology,755,750,750,750,750,750
+Technische Universität Braunschweig,756,398,750,750,750,750
+Tokyo University of Science,757,750,750,750,750,750
+Universidade de Brasília,758,750,750,750,750,750
+Universita' Politecnica delle Marche,759,750,750,750,750,750
+University of Calcutta,760,750,750,750,750,750
+University of Engineering & Technology (UET) Lahore,761,206,750,750,750,750
+University of Malta,762,750,750,750,750,750
+University of Messina (UniME),763,750,750,750,750,750
+"Adam Mickiewicz University, Poznań",764,750,381,750,750,750
+Bangladesh University of Engineering and Technology,765,321,750,750,750,750
+King Faisal University,766,750,750,750,750,750
+Nanjing University of Aeronautics and Astronautics,767,750,750,750,750,750
+University of Cincinnati,768,750,750,347,750,750
+"University of Colorado, Denver",769,750,750,750,750,750
+University of Patras,770,750,750,750,750,750
+Addis Ababa University,771,750,750,750,750,750
+Bournemouth University,772,750,750,750,750,750
+Chiba University,773,750,750,750,750,750
+China University of Geosciences,774,750,750,750,750,750
+Colegio de México,775,750,327,750,750,750
+Holy Spirit University of Kaslik,776,750,750,750,750,750
+Universidad del Rosario,777,750,750,750,750,300
+Université de Tunis El Manar,778,750,750,750,750,750
+"University of Maryland, Baltimore County",779,750,750,750,750,750
+University of Pecs,780,750,750,750,750,750
+Verona University,781,750,750,385,750,750
+Babes-Bolyai University,782,750,750,750,750,750
+Kasetsart University,783,750,750,750,750,750
+National University of Uzbekistan,784,750,750,750,750,750
+Qassim University,785,335,750,750,750,299
+Texas Tech University,786,750,750,750,750,750
+The New School,787,750,116,750,750,750
+Universidad de Belgrano,788,750,750,750,750,750
+Universidade Federal de Santa Catarina,789,750,750,750,750,750
+University of Latvia,790,750,750,750,750,750
+University of Mons,791,750,750,750,750,750
+Zürcher Hochschule Winterthur,792,750,750,750,750,750
+Alfaisal University,793,750,750,750,750,750
+Ivane Javakhishvili Tbilisi State University,794,750,750,750,750,750
+Keele University,795,750,750,750,750,750
+New Jersey Institute of Technology (NJIT),796,750,750,750,750,750
+Sechenov University,797,750,750,281,750,750
+Universidad de Antioquia,798,750,379,401,750,750
+University of Kentucky,799,750,750,373,750,750
+University of New Mexico,800,750,750,750,750,750
+Vellore Institute of Technology (VIT),801,142,750,750,363,750
+Wayne State University,802,750,750,750,750,750
+Al-Ahliyya Amman University,803,750,200,750,750,356
+Alexandria University,804,320,750,293,750,750
+Ankara Üniversitesi,805,750,750,380,750,750
+Asia University Taiwan,806,750,750,750,750,750
+Beijing University of Technology,807,750,750,750,750,750
+Belarusian National Technical University (BNTU),808,750,750,750,750,750
+"Birla Institute of Technology and Science, Pilani",809,250,750,750,750,750
+Edinburgh Napier University,810,750,750,750,750,750
+Gdańsk University of Technology,811,354,750,750,750,750
+Huazhong Agricultural University,812,750,750,366,750,750
+Immanuel Kant Baltic Federal University,813,750,750,750,750,750
+Instituto Politécnico Nacional (IPN),814,248,750,750,750,750
+Jouf University,815,750,750,750,750,750
+Khoja Akhmet Yassawi International Kazakh-Turkish University,816,750,750,750,750,750
+Kuwait University,817,750,750,750,750,750
+Liverpool John Moores University,818,750,750,750,750,750
+London South Bank University,819,750,750,750,750,750
+Maynooth University,820,750,750,750,750,750
+"National Technical University of Ukraine ""Igor Sikorsky Kyiv Polytechnic Institute""",821,382,750,750,750,750
+Ocean University of China,822,750,750,750,750,750
+Philipps-Universität Marburg,823,750,750,332,750,750
+Pontificia Universidad Católica de Valparaíso,824,750,386,750,750,391
+Rutgers University–Newark,825,750,750,750,750,750
+Syracuse University,826,750,750,750,750,750
+The Catholic University of Korea,827,750,750,750,750,750
+Toronto Metropolitan University,828,750,750,750,750,750
+TU Dortmund University,829,330,750,750,750,750
+Universidad Anáhuac México,830,750,750,750,750,750
+Universidad Iberoamericana IBERO,831,750,354,750,750,750
+Universidad San Francisco de Quito (USFQ),832,750,750,750,750,750
+Università degli Studi di Perugia,833,750,750,750,750,750
+Universitas Brawijaya,834,750,750,750,750,750
+Universität Duisburg-Essen,835,750,750,750,750,750
+Universität Rostock,836,750,750,750,750,750
+Université de Lorraine,837,750,750,750,750,750
+Universiti Tunku Abdul Rahman (UTAR),838,750,750,750,750,750
+University of Alaska Fairbanks,839,750,750,750,750,750
+University of Alicante,840,750,750,750,750,750
+University of Baghdad,841,303,750,750,750,750
+University of Bari,842,750,750,396,750,750
+University of Brighton,843,750,750,750,750,750
+University of Bucharest,844,750,750,750,750,750
+University of Hyderabad,845,750,750,750,750,750
+University of Oregon,846,750,389,750,750,750
+University of Petroleum and Energy Studies (UPES),847,243,750,750,750,317
+University of Salerno,848,750,750,750,750,750
+University of Stavanger,849,750,750,750,750,750
+University of Ulsan,850,750,750,750,750,750
+Wuhan University of Technology,851,750,750,750,750,750
+AGH University of Science and Technology,852,363,750,750,750,750
+Al-Quds University,853,750,750,750,750,750
+Applied Science Private University - Jordan,854,750,192,750,750,384
+Charles Sturt University,855,750,750,750,750,750
+Chonnam National University,856,750,750,750,750,750
+Chungnam National University,857,750,750,750,750,750
+Clarkson University,858,750,750,750,750,750
+CY Cergy Paris University,859,750,750,750,750,750
+Donghua University,860,750,750,750,750,750
+Georgia State University,861,750,750,750,750,750
+Gulf University for Science and Technology,862,750,750,750,750,312
+Jamia Millia Islamia,863,750,750,750,750,750
+Kansas State University,864,750,750,750,750,750
+Karaganda State Technical University,865,750,750,750,750,750
+Kyrgyz Russian Slavic University,866,750,750,750,750,750
+Mendel University in Brno,867,750,750,750,750,750
+Nagasaki University,868,750,750,750,750,750
+Northwest Agriculture and Forestry University,869,750,750,391,750,750
+North-West University,870,750,750,750,750,750
+Okayama University,871,750,750,750,750,750
+Oklahoma State University,872,750,750,750,750,750
+Pavol Jozef Šafárik University in Košice,873,750,750,750,750,750
+Poznan University of Life Sciences,874,750,750,750,750,750
+Shahid Beheshti University (SBU),875,750,750,750,750,750
+Swarthmore College,876,750,750,750,750,750
+Technological University Dublin,877,750,750,750,750,750
+Thapar Institute of Engineering & Technology,878,750,750,750,750,750
+Tokyo University of Agriculture and Technology,879,750,750,750,750,750
+Universidad de Valladolid,880,750,750,750,750,750
+Universidad ORT Uruguay,881,750,750,750,750,750
+Universita' degli Studi di Ferrara,882,750,750,750,750,750
+Université de Nantes,883,750,750,750,750,750
+Université de Sherbrooke,884,750,750,750,750,750
+Université du Québec,885,750,750,750,750,750
+University at Albany SUNY,886,750,750,750,750,750
+University Duesseldorf,887,750,750,296,750,750
+University of Dubai,888,750,750,750,750,750
+UNIVERSITY OF GDANSK,889,750,750,750,750,750
+University of Ghana,890,750,750,750,750,750
+University of Hertfordshire,891,750,750,750,750,750
+University of Lincoln,892,750,750,750,750,750
+University of Mississippi,893,750,750,750,750,750
+University of Palermo,894,750,750,750,750,750
+University of Santo Tomas,895,750,750,750,750,750
+University of South Africa,896,750,750,750,750,750
+University of Wroclaw,897,750,750,750,750,750
+"Vietnam National University, Hanoi",898,750,750,750,750,750
+Vilnius Gediminas Technical University,899,750,750,750,750,750
+Virginia Commonwealth University,900,750,750,328,750,750
+Yildiz Technical University,901,266,750,750,750,750
+Australian Catholic University,902,750,750,750,750,750
+Beijing Jiaotong University,903,750,750,750,750,750
+Beijing University of Posts and Telecommunications,904,750,750,750,750,750
+Catania University,905,750,750,750,750,750
+Future University in Egypt,906,750,750,750,750,750
+Gazi Üniversitesi,907,750,750,750,385,750
+Georgian Technical University,908,750,750,750,750,750
+German Jordanian University,909,750,750,750,750,750
+Imam Mohammad Ibn Saud Islamic University – IMSIU,910,381,351,750,750,362
+Kanazawa University,911,750,750,750,750,750
+Karaganda Buketov University,912,750,750,750,750,750
+Kyrgyz-Turkish Manas University,913,750,391,750,750,750
+Louisiana State University,914,750,750,750,750,750
+Makerere University,915,750,750,750,750,750
+"Manipal Academy of Higher Education, Manipal, Karnataka, India",916,750,750,750,750,750
+Michigan Technological University,917,750,750,750,750,750
+National Research Saratov State University,918,750,750,750,750,750
+Nicolaus Copernicus University,919,750,750,750,750,750
+North South University,920,750,750,750,750,750
+Osaka Metropolitan University,921,750,750,750,750,750
+Princess Sumaya University for Technology,922,750,750,750,750,750
+Ritsumeikan Asia Pacific University,923,750,750,750,750,750
+Robert Gordon University,924,750,750,750,750,750
+South Ural State University (National Research University),925,750,750,750,750,750
+Universidad Católica del Uruguay (UCU),926,750,750,750,750,750
+"Universidad Central ""Marta Abreu"" de Las Villas",927,750,750,750,750,750
+Universidad EAFIT,928,750,750,750,750,750
+Universidad Externado de Colombia,929,750,750,750,750,315
+Universidad Nacional de Córdoba - UNC,930,750,329,750,750,750
+Universidad Nacional Mayor de San Marcos,931,750,398,750,750,750
+Universidad Pontificia Bolivariana,932,750,750,750,750,750
+Universidade Católica Portuguesa - UCP,933,750,750,750,750,750
+Universidade de Vigo,934,750,750,750,750,750
+Università degli Studi della Tuscia (University of Tuscia),935,750,750,750,750,750
+Università degli studi Roma Tre,936,750,275,750,750,750
+"University of Alabama, Birmingham",937,750,750,225,750,750
+University of Calabria,938,750,750,750,750,750
+University of East London,939,750,750,750,750,750
+University of Hail,940,750,750,750,750,750
+University of Lodz,941,750,750,750,750,750
+University of Maribor,942,750,750,750,750,750
+University of Murcia,943,750,750,750,750,750
+University of Nairobi,944,750,750,750,750,750
+University of Peshawar,945,750,750,750,750,750
+University of Salford,946,750,750,750,750,750
+University Paris 2 Panthéon-Assas,947,750,750,750,750,750
+Viet Nam National University Ho Chi Minh City (VNU-HCM),948,750,750,750,750,750
+Worcester Polytechnic Institute,949,750,750,750,750,750
+Wroclaw University of Science and Technology (WRUST),950,750,750,750,750,750
+Yerevan State University,951,750,750,750,750,750
+Yokohama City University,952,750,750,750,750,750
+Almaty Technological University,953,750,750,750,750,750
+Athens University of Economics and Business,954,750,750,750,750,337
+Auburn University,955,750,750,750,750,750
+Baku State University,956,750,750,750,750,750
+Bina Nusantara University (BINUS),957,750,750,750,750,750
+Clark University,958,750,750,750,750,750
+Clemson University,959,750,750,750,750,750
+D. Serikbayev East Kazakhstan state technical university,960,750,750,750,750,750
+Ferdowsi University of Mashhad,961,750,750,750,750,750
+Financial University under the Government of the Russian Federation,962,750,750,750,750,750
+Hallym University,963,750,750,750,750,750
+Indian Institute of Technology Bhubaneswar,964,750,750,750,750,750
+Instituto Tecnológico de Buenos Aires (ITBA),965,750,750,750,750,750
+Khon Kaen University,966,750,750,750,750,750
+King Mongkut's University of Technology Thonburi,967,750,750,750,750,750
+Kumamoto University,968,750,750,750,750,750
+Mansoura University,969,750,750,400,750,750
+Niigata University,970,750,750,750,750,750
+Northern Borders University,971,750,750,750,750,750
+Pontificia Universidad Católica del Ecuador (PUCE),972,750,750,750,750,750
+Prince of Songkla University,973,750,750,750,750,750
+"Queen Margaret University , Edinburgh",974,750,750,750,750,750
+Rhodes University,975,750,750,750,750,750
+Riga Stradins University,976,750,750,750,750,750
+S.D. Asfendiyarov Kazakh National Medical University,977,750,750,750,750,750
+Saveetha Institute of Medical and Technical Sciences (deemed to be university),978,750,750,750,750,750
+Sophia University,979,750,750,750,750,750
+Southern Federal University,980,750,750,750,750,750
+St. Louis University,981,750,750,750,750,750
+The University of Alabama,982,750,750,750,750,750
+The University of Lahore,983,750,750,750,750,750
+Universidad Autónoma Metropolitana (UAM),984,750,358,750,750,750
+Universidad de Córdoba - España,985,750,750,750,750,750
+Universidad de La Sabana,986,750,750,750,750,307
+Universidad de León,987,750,750,750,750,750
+Universidad de los Andes - Chile,988,750,750,750,750,750
+Universidad de San Andrés - UdeSA,989,750,750,750,750,750
+Universidad Nacional de Rosario (UNR),990,750,750,750,750,750
+Universidad Técnica Federico Santa María (USM),991,332,750,750,750,750
+Universidad Torcuato Di Tella,992,750,750,750,750,306
+Université Sorbonne Paris Nord,993,750,750,384,750,750
+Université Toulouse 1 Capitole,994,750,750,750,750,322
+Universiti Pendidikan Sultan Idris (UPSI),995,750,750,750,750,750
+University of Bahrain,996,750,750,750,750,750
+University of Central Lancashire,997,750,750,750,750,750
+University of Colombo,998,750,750,750,750,750
+University of Denver,999,750,750,750,750,750
+University of Parma,1000,750,750,750,750,750
+University of Regina,1001,750,750,750,750,750
+University of South Bohemia,1002,750,750,750,750,750
+University of the Western Cape,1003,750,750,750,750,750
+Yarmouk University,1004,750,750,750,750,750
+Yeungnam University,1005,750,750,750,750,750
+Al-Azhar University,1006,750,750,750,750,750
+Aligarh Muslim University,1007,750,750,750,750,750
+Amity University,1008,750,750,750,750,750
+Amrita Vishwa Vidyapeetham,1009,750,750,750,750,750
+An-Najah National University,1010,750,750,750,750,750
+"Arab Academy for Science, Technology and Maritime Transport",1011,750,750,750,750,750
+Assiut University,1012,750,750,750,750,750
+Azerbaijan State Oil and Industry University,1013,750,750,750,750,750
+Azerbaijan State University of Economics,1014,750,750,750,750,750
+Banaras Hindu University,1015,750,750,750,750,750
+Baylor University,1016,750,750,750,750,750
+Bielefeld University,1017,750,750,750,750,750
+Binghamton University SUNY,1018,750,750,750,750,750
+Birmingham City University,1019,750,750,750,750,750
+BRAC University,1020,750,750,750,750,750
+Brigham Young University,1021,750,750,750,750,750
+Canterbury Christ Church University,1022,750,750,750,750,750
+Chang Jung Christian University,1023,750,750,750,750,750
+Chung Yuan Christian University,1024,750,750,750,750,750
+Chungbuk National University,1025,750,750,750,750,750
+College of William and Mary,1026,750,750,750,750,750
+Corvinus University of Budapest,1027,750,750,750,750,350
+Cracow University of Technology (Politechnika Krakowska),1028,750,750,750,750,750
+Dankook University,1029,750,750,750,750,750
+EGE UNIVERSITY,1030,750,750,750,750,750
+Escuela Superior Politécnica del Litoral (ESPOL),1031,750,750,750,750,750
+Fordham University,1032,750,750,750,750,750
+Gebze Technical University (GTU),1033,750,750,750,750,750
+George Mason University,1034,750,750,750,750,750
+Gifu University,1035,750,750,750,750,750
+Glasgow Caledonian University,1036,750,750,750,750,750
+Gunma University,1037,750,750,750,750,750
+Guru Gobind Singh Indraprastha University,1038,750,750,750,750,750
+Harbin Engineering University,1039,750,750,750,750,750
+Hohai University,1040,750,750,750,750,750
+Howard University,1041,750,750,750,750,750
+Hungarian University of Agriculture and Life Sciences,1042,750,750,750,750,750
+Indiana University–Purdue University Indianapolis,1043,750,750,750,750,750
+International Christian University,1044,750,750,750,750,750
+International Islamic University Islamabad (IIU),1045,750,750,750,750,750
+Islamic University of Madinah,1046,750,750,750,750,750
+"ITESO, Universidad Jesuita de Guadalajara",1047,750,750,750,750,750
+Jiangnan University,1048,750,750,750,750,750
+Kagoshima University,1049,750,750,750,750,750
+Kangwon National University,1050,750,750,750,750,750
+Kazakh-British Technical University,1051,750,750,750,750,750
+Kent State University,1052,750,750,750,750,750
+Kyushu Institute of Technology,1053,750,750,750,750,750
+Leeds Beckett University,1054,750,750,750,750,750
+Lobachevsky University,1055,750,750,750,750,750
+Lodz University of Technology,1056,750,750,750,750,750
+London Metropolitan University,1057,750,750,750,750,750
+Loyola University Chicago,1058,750,750,750,750,750
+Lviv Polytechnic National University,1059,750,750,750,750,750
+Marmara University,1060,750,750,750,750,750
+Mississippi State University,1061,750,750,750,750,750
+Multimedia University (MMU),1062,750,750,750,750,750
+Mustansiriyah University,1063,750,750,750,750,750
+Mutah University,1064,750,750,750,750,750
+Mykolas Romeris University,1065,750,750,750,750,750
+Nanjing Normal University,1066,750,750,750,750,750
+Narxoz University,1067,750,750,750,750,750
+National Chung Cheng University,1068,750,750,750,750,750
+"National Technical University ""Kharkiv Polytechnic Institute""",1069,750,750,750,750,750
+National University of Kyiv-Mohyla Academy (NaUKMA),1070,750,750,750,750,750
+NJSC KIMEP University,1071,750,750,750,750,750
+Northern Arizona University,1072,750,750,750,750,750
+Northwest University (China),1073,750,750,750,750,750
+O.P. Jindal Global University,1074,750,363,750,750,275
+Ohio University,1075,750,750,750,750,750
+Panjab University,1076,750,750,750,750,750
+Paul Valéry University Montpellier,1077,750,750,750,750,750
+Pontifícia Universidade Católica de São Paulo,1078,750,750,750,750,750
+Poznań University of Technology,1079,750,750,750,750,750
+Rochester Institute of Technology (RIT),1080,750,750,750,750,750
+Russian Presidential Academy of National Economy and Public Administration,1081,750,750,750,750,750
+Saint Petersburg Electrotechnical University ETU-LETI,1082,750,750,750,750,750
+Saint-Petersburg Mining University,1083,750,750,750,750,750
+Samara National Research University (Samara University),1084,750,750,750,750,750
+San Diego State University,1085,750,750,750,750,750
+Sheffield Hallam University,1086,750,750,750,750,750
+Shinshu University,1087,750,750,750,750,750
+"Siberian Federal University, SibFU",1088,750,750,750,750,750
+Silesian University of Technology,1089,750,750,750,750,750
+Slovak University of Agriculture in Nitra,1090,750,750,750,750,750
+Slovak University of Technology in Bratislava,1091,750,750,750,750,750
+Sohar University,1092,750,750,750,750,750
+Soonchunhyang University,1093,750,750,750,750,750
+Southern Methodist University,1094,750,750,750,750,750
+Southwest University,1095,750,750,750,750,750
+SRM INSTITUTE OF SCIENCE AND TECHNOLOGY,1096,280,750,750,399,750
+Sumy State University,1097,750,750,750,750,750
+Sungshin Women's University,1098,750,750,750,750,750
+Széchenyi István University,1099,750,750,750,750,750
+Taibah University,1100,750,750,750,750,750
+Tallinn University,1101,750,750,750,750,750
+Technical University of Kosice,1102,750,750,750,750,750
+Tecnológico de Costa Rica -TEC,1103,750,750,750,750,750
+Telkom University,1104,750,750,750,750,750
+The Hashemite University,1105,750,750,750,750,750
+The University of Northampton,1106,750,750,750,750,750
+The University of Texas at Arlington,1107,750,750,750,750,750
+Tokushima University,1108,750,750,750,750,750
+Tokyo Metropolitan University,1109,750,750,750,750,750
+Universidad Andrés Bello,1110,750,750,750,750,750
+Universidad Austral de Chile,1111,750,750,750,750,750
+Universidad Autónoma Chapingo,1112,750,750,750,750,750
+Universidad Autónoma de Nuevo León,1113,750,750,750,750,750
+Universidad Autónoma del Estado de México (UAEMex),1114,750,750,750,750,750
+Universidad de Castilla-La Mancha,1115,750,750,750,750,750
+Universidad de Guadalajara (UDG),1116,750,750,750,750,750
+Universidad de La Frontera (UFRO),1117,750,750,750,750,750
+Universidad de las Américas Puebla (UDLAP),1118,750,750,750,750,750
+Universidad de Lima,1119,750,750,750,750,750
+Universidad de Los Andes - (ULA) Mérida,1120,750,750,750,750,750
+Universidad de Oviedo,1121,750,750,750,750,750
+Universidad de Puerto Rico,1122,750,750,750,750,750
+Universidad de Talca,1123,750,750,750,750,750
+Universidad del Norte,1124,750,750,750,750,750
+Universidad del Pacífico,1125,750,750,750,750,399
+Universidad del Valle,1126,750,750,750,750,750
+Universidad Diego Portales (UDP),1127,750,293,750,750,320
+Universidad ICESI,1128,750,750,750,750,750
+Universidad Nacional de Cuyo,1129,750,750,750,750,750
+Universidad Nacional de la Asunción,1130,750,750,750,750,750
+Universidad Nacional de San Luis,1131,750,750,750,750,750
+Universidad Nacional del Centro de la Provincia de Buenos Aires (UNICEN),1132,750,750,750,750,750
+Universidad Peruana Cayetano Heredia (UPCH),1133,750,750,750,750,750
+Universidad Rey Juan Carlos,1134,750,750,750,750,750
+Universidad Simón Bolívar (USB),1135,750,750,750,750,750
+Universidad Tecnológica de Panamá (UTP),1136,750,750,750,750,750
+Universidad Tecnológica Nacional (UTN),1137,750,750,750,750,750
+Universidade da Coruña,1138,750,750,750,750,750
+Universidade Federal de Pernambuco (UFPE),1139,750,750,750,750,750
+Universidade Federal de São Carlos (UFSCar),1140,750,750,750,750,750
+Universidade Federal do Paraná - UFPR,1141,750,750,750,750,750
+Universidade Federal Fluminense,1142,750,750,750,750,750
+"Universita' degli Studi ""G. d'Annunzio"" Chieti Pescara",1143,750,750,750,750,750
+Università degli Studi di Udine,1144,750,750,750,750,750
+Università del Salento,1145,750,750,750,750,750
+Universitas Hasanuddin,1146,750,750,750,750,750
+Universitas Sebelas Maret,1147,750,750,750,750,750
+Universitat de Lleida,1148,750,750,750,750,750
+Universität Siegen,1149,750,750,750,750,750
+Université de Caen Normandie,1150,750,750,750,750,750
+Université de Poitiers,1151,750,750,750,750,750
+Université de Sfax,1152,750,750,750,750,750
+Université de Sousse,1153,750,750,750,750,750
+Université de Toulouse II-Le Mirail,1154,750,384,750,750,750
+Université de Tunis,1155,750,750,750,750,750
+Université Lumière Lyon 2,1156,750,343,750,750,750
+Université Mohammed V de Rabat,1157,750,750,750,750,750
+Université Paris-Nanterre,1158,750,313,750,750,750
+Universiti Malaysia Sabah (UMS),1159,750,750,750,750,750
+Universiti Malaysia Sarawak (UNIMAS),1160,750,750,750,750,750
+Universiti Malaysia Terengganu (UMT),1161,750,750,750,750,750
+Universiti Tun Hussein Onn University of Malaysia (UTHM),1162,750,750,750,750,750
+University of Arkansas Fayetteville,1163,750,750,750,750,750
+University of Derby,1164,750,750,750,750,750
+University of Deusto,1165,750,750,750,750,750
+University of Hradec Kralove,1166,750,750,750,750,750
+University of Ibadan,1167,750,750,750,750,750
+University of Idaho,1168,750,750,750,750,750
+University of Ioannina,1169,750,750,750,750,750
+University of Karachi,1170,750,750,750,750,750
+University of Khartoum,1171,750,750,750,750,750
+University of Lagos,1172,750,750,750,750,750
+University of Louisville,1173,750,750,750,750,750
+University of Massachusetts Boston,1174,750,750,750,750,750
+"University of Missouri, Kansas City",1175,750,750,750,750,750
+University of Naples Parthenope,1176,750,750,750,750,750
+University of New England Australia,1177,750,750,750,750,750
+University of New Hampshire,1178,750,750,750,750,750
+University of North Carolina at Charlotte,1179,750,750,750,750,750
+University of North Texas,1180,750,750,750,750,750
+University of Novi Sad,1181,750,750,750,750,750
+University of Rhode Island,1182,750,750,750,750,750
+University of Sarajevo,1183,750,750,750,750,750
+University of Seoul,1184,750,750,750,750,750
+University of Tabuk,1185,750,750,750,750,750
+University of Texas at San Antonio,1186,750,750,750,750,750
+University of Texas El Paso,1187,750,750,750,750,750
+University of the Free State,1188,750,750,750,750,750
+University of the Sunshine Coast,1189,750,750,750,750,750
+University of Toledo,1190,750,750,750,750,750
+University of Tulsa,1191,750,750,750,750,750
+University of Vermont,1192,750,750,750,750,750
+University of Warmia and Mazury in Olsztyn,1193,750,750,750,750,750
+University of Wolverhampton,1194,750,750,750,750,750
+University of Wyoming,1195,750,750,750,750,750
+University of Žilina,1196,750,750,750,750,750
+Utah State University,1197,750,750,750,750,750
+VSB - Technical University of Ostrava,1198,750,750,750,750,750
+Warsaw University of Life Sciences – SGGW (WULS-SGGW),1199,750,750,750,750,750
+West Virginia University,1200,750,750,750,750,750
+Xi'an Jiaotong Liverpool University,1201,750,750,750,750,750
+Yokohama National University,1202,750,750,750,750,750
+Al-Balqa Applied University,1203,750,750,750,750,750
+Alexandru Ioan Cuza University,1204,750,750,750,750,750
+Anadolu University,1205,750,750,750,750,750
+Aoyama Gakuin University,1206,750,750,750,750,750
+Ataturk University,1207,750,750,750,750,750
+Atma Jaya Catholic University Jakarta,1208,750,750,750,750,750
+Bahauddin Zakariya University,1209,750,750,750,750,750
+Beijing Foreign Studies University,1210,750,750,750,750,750
+Beijing University of Chinese Medicine,1211,750,750,750,750,750
+Belarusian State University of Informatics and Radioelectronics,1212,750,750,750,750,750
+Benemérita Universidad Autónoma de Puebla,1213,750,750,750,750,750
+Birzeit university,1214,750,750,750,750,750
+British University in Egypt,1215,750,750,750,750,750
+Brock University,1216,750,750,750,750,750
+Central Michigan University,1217,750,750,750,750,750
+Chaoyang University of Technology,1218,750,750,750,750,750
+China University of Political Science and Law,1219,750,750,750,750,750
+Chitkara University,1220,750,750,750,750,750
+Chittagong University of Engineering and Technology,1221,750,750,750,750,750
+Cleveland State University,1222,750,750,750,750,750
+Cukurova University,1223,750,750,750,750,750
+CUNY The City College of New York,1224,750,750,750,750,750
+Daffodil International University,1225,750,750,750,750,750
+Damascus University,1226,750,750,750,750,750
+Dokuz Eylül Üniversitesi,1227,750,750,750,750,750
+Doshisha University,1228,750,750,750,750,750
+Erciyes Üniversitesi,1229,750,750,750,750,750
+Escuela Politécnica Nacional,1230,750,750,750,750,750
+Feng Chia University,1231,750,750,750,750,750
+Florida Atlantic University - Boca Raton,1232,750,750,750,750,750
+Fu Jen Catholic University,1233,750,750,750,750,750
+Fundación CEU San Pablo,1234,750,750,750,750,750
+German University in Cairo,1235,750,750,750,750,750
+Hanoi University of Science and Technology,1236,750,750,750,750,750
+Harper Adams University,1237,750,750,750,750,750
+Helwan University,1238,750,750,750,750,750
+Hongik University,1239,750,750,750,750,750
+Hue University,1240,750,750,750,750,750
+Instituto Tecnológico de Santo Domingo (INTEC),1241,750,750,750,750,750
+Istanbul Aydin University,1242,750,750,750,750,750
+Istanbul Bilgi Üniversitesi,1243,750,750,750,750,750
+Ivan Franko National University of Lviv,1244,750,750,750,750,750
+Izmir Institute of Technology (IZTECH),1245,750,750,750,750,750
+Jahangirnagar University,1246,750,750,750,750,750
+Jamia Hamdard,1247,750,750,750,750,750
+Jeju National University,1248,750,750,750,750,750
+Kazakh Ablai Khan University of International Relations and World Languages,1249,750,750,750,750,750
+Kazan National Research Technological University,1250,750,750,750,750,750
+Kenyatta University,1251,750,750,750,750,750
+Kharkiv National University of Radio Electronics,1252,750,750,750,750,750
+Khulna University,1253,750,750,750,750,750
+Khulna University of Engineering and Technology,1254,750,750,750,750,750
+Kindai University (Kinki University),1255,750,750,750,750,750
+King Mongkut\'s Institute of Technology Ladkrabang,1256,750,750,750,750,750
+King Mongkut's University of Technology North Bangkok,1257,750,750,750,750,750
+Kookmin University,1258,750,750,750,750,750
+Kwame Nkrumah University of Science and Technology,1259,750,750,750,750,750
+Kyoto Institute of Technology,1260,750,750,750,750,750
+Kyrgyz State Technical University,1261,750,750,750,750,750
+Marquette University,1262,750,750,750,750,750
+Meiji University,1263,750,750,750,750,750
+Mendeleev University of Chemical Technology,1264,750,750,750,750,750
+Miami University,1265,750,750,750,750,750
+Moscow Pedagogical State University,1266,750,750,750,750,750
+Nagoya Institute of Technology (NIT),1267,750,750,750,750,750
+National Dong Hwa University,1268,750,750,750,750,750
+National Research University Moscow Power Engineering Institute (MPEI),1269,750,750,750,750,750
+National Taipei University,1270,750,750,750,750,750
+National Taiwan Ocean University,1271,750,750,750,750,750
+Novosibirsk State Technical University,1272,750,750,750,750,750
+Óbuda University,1273,750,750,750,750,750
+Odessa I.I. Mechnikov National University,1274,750,750,750,750,750
+OSMANIA UNIVERSITY,1275,750,750,750,750,750
+Perm State National Research University,1276,750,750,750,750,750
+Pondicherry University,1277,750,750,750,750,750
+Pontificia Universidad Catolica Madre y Maestra,1278,750,750,750,750,750
+Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS),1279,750,750,750,750,750
+Portland State University,1280,750,750,750,750,750
+Pukyong National University,1281,750,750,750,750,750
+Rajshahi University,1282,750,750,750,750,750
+Rikkyo University,1283,750,750,750,750,750
+Saitama University,1284,750,750,750,750,750
+Saken Seifullin Kazakh Agrotechnical University,1285,750,750,750,750,750
+San Francisco State University,1286,750,750,750,750,750
+Sathyabama Institute of Science and Technology (deemed to be university),1287,750,750,750,750,750
+Seattle University,1288,750,750,750,750,750
+Seoul National University of Science and Technology,1289,750,750,750,750,750
+Shahjalal University of Science and Technology,1290,750,750,750,750,750
+Shanghai International Studies University,1291,750,750,750,750,750
+Shanghai University of Finance and Economics,1292,750,750,750,750,750
+Siksha 'O' Anusandhan (Deemed to be University),1293,750,750,750,750,750
+Sookmyung Women's University,1294,750,750,750,750,750
+Suez Canal University,1295,750,750,750,750,750
+Suleyman Demirel University,1296,750,750,750,750,750
+"Suleyman Demirel University, Kazakhstan",1297,750,750,750,750,750
+Suranaree University of Technology,1298,750,750,750,750,750
+Tamkang University,1299,750,750,750,750,750
+Tanta University,1300,750,750,750,750,750
+Technical University of Cluj-Napoca,1301,750,750,750,750,750
+Technical University of Liberec,1302,750,750,750,750,750
+Technical University of Lublin,1303,750,750,750,750,750
+Technische Universität Kaiserslautern,1304,750,750,750,750,750
+"The ""Gheorghe Asachi"" Technical University of Iasi",1305,750,750,750,750,750
+The Herzen State Pedagogical University of Russia,1306,750,750,750,750,750
+The Josip Juraj Strossmayer University of Osijek,1307,750,750,750,750,750
+"The National Research University ""Belgorod State University""",1308,750,750,750,750,750
+Tokai University,1309,750,750,750,750,750
+Tomas Bata University in Zlin,1310,750,750,750,750,750
+Toraighyrov University,1311,750,750,750,750,750
+Transilvania University of Brasov,1312,750,750,750,750,750
+Tunghai University,1313,750,750,750,750,750
+Universidad Autónoma de Guadalajara (UAG),1314,750,750,750,750,750
+Universidad Autónoma del Estado de Hidalgo (UAEH),1315,750,750,750,750,750
+Universidad Católica del Norte,1316,750,750,750,750,750
+Universidad Central del Ecuador,1317,750,750,750,750,750
+Universidad de Las Américas (UDLA) Ecuador,1318,750,750,750,750,750
+Universidad de Monterrey (UDEM),1319,750,750,750,750,750
+Universidad de Oriente Santiago de Cuba,1320,750,750,750,750,750
+Universidad de Panama,1321,750,750,750,750,750
+Universidad de Piura,1322,750,750,750,750,750
+Universidad de San Carlos de Guatemala - USAC,1323,750,750,750,750,750
+Universidad de Tarapaca,1324,750,750,750,750,750
+Universidad de Valparaíso (UV),1325,750,750,750,750,750
+Universidad del Bío-Bío,1326,750,750,750,750,750
+Universidad del Desarrollo (UDD),1327,750,750,750,750,750
+Universidad del Salvador,1328,750,750,750,750,750
+Universidad del Zulia,1329,750,750,750,750,750
+Universidad Industrial de Santander - UIS,1330,750,750,750,750,750
+Universidad La Salle (ULSA),1331,750,750,750,750,750
+Universidad Latinoamericana de Ciencia y Tecnología Costa Rica (ULACIT),1332,750,750,750,750,750
+Universidad Mayor de San Andrés (UMSA),1333,750,750,750,750,750
+Universidad Metropolitana,1334,750,750,750,750,750
+Universidad Nacional Agraria la Molina,1335,750,750,750,750,750
+Universidad Nacional Autónoma de Honduras (UNAH),1336,750,750,750,750,750
+Universidad Nacional de Ingeniería Peru,1337,750,750,750,750,750
+Universidad Nacional de Mar del Plata,1338,750,750,750,750,750
+Universidad Nacional de Río Cuarto - UNRC,1339,750,750,750,750,750
+Universidad Nacional de San Martín (UNSAM),1340,750,750,750,750,750
+Universidad Nacional del Litoral,1341,750,750,750,750,750
+Universidad Nacional del Sur,1342,750,750,750,750,750
+"Universidad Nacional, Costa Rica",1343,750,750,750,750,750
+Universidad Peruana de Ciencias Aplicadas,1344,750,750,750,750,750
+Universidade do Estado do Rio de Janeiro (UERJ),1345,750,750,750,750,750
+Universidade Federal da Bahia,1346,750,750,750,750,750
+Universidade Federal de Juiz de Fora- (UFJF),1347,750,750,750,750,750
+Universidade Federal de Pelotas,1348,750,750,750,750,750
+Universidade Federal de Santa Maria,1349,750,750,750,750,750
+Universidade Federal de Viçosa (UFV),1350,750,750,750,750,750
+Universidade Federal do Ceará (UFC),1351,750,750,750,750,750
+Universidade Federal do Rio Grande Do Norte,1352,750,750,750,750,750
+Universidade Presbiteriana Mackenzie,1353,750,750,750,750,750
+Università degli studi di Bergamo,1354,750,750,750,750,750
+Universitas Islam Indonesia,1355,750,750,750,750,750
+Universitas Muhammadiyah Yogyakarta,1356,750,750,750,750,750
+Universitas Pendidikan Indonesia,1357,750,750,750,750,750
+Universitas Sumatera Utara,1358,750,750,750,750,750
+Universitatea de Vest din Timisoara / West University of Timisoara,1359,750,750,750,750,750
+Université de Limoges,1360,750,750,750,750,750
+Université Jean Moulin Lyon 3,1361,750,750,750,750,750
+Universiti Kuala Lumpur (UniKL),1362,750,750,750,750,750
+Universiti Malaysia Perlis,1363,750,750,750,750,750
+Universiti Teknikal Malaysia Melaka,1364,750,750,750,750,750
+University of Babylon,1365,750,750,750,750,750
+University of Basrah,1366,750,750,750,750,750
+University of Bialystok,1367,750,750,750,750,750
+University of International Business and Economics,1368,750,750,750,750,750
+University of Kragujevac,1369,750,750,750,750,750
+University of Kufa,1370,750,750,750,750,750
+University of Memphis,1371,750,750,750,750,750
+University of Miskolc,1372,750,750,750,750,750
+University of Missouri Saint Louis,1373,750,750,750,750,750
+University of Niš,1374,750,750,750,750,750
+University of North Carolina at Greensboro,1375,750,750,750,750,750
+University of Ostrava,1376,750,750,750,750,750
+University of Pannonia,1377,750,750,750,750,750
+University of Pardubice,1378,750,750,750,750,750
+University of Peradeniya,1379,750,750,750,750,750
+University of Primorska,1380,750,750,750,750,750
+University of Rijeka,1381,750,750,750,750,750
+University of Rzeszów,1382,750,750,750,750,750
+University of San Diego,1383,750,750,750,750,750
+University of San Francisco,1384,750,750,750,750,750
+University of Silesia in Katowice,1385,750,750,750,750,750
+University of South Alabama (USA),1386,750,750,750,750,750
+University of Split,1387,750,750,750,750,750
+University of Sri Jayewardenepura,1388,750,750,750,750,750
+University of the Pacific,1389,750,750,750,750,750
+University of Tyumen,1390,750,750,750,750,750
+University of West Bohemia,1391,750,750,750,750,750
+University of Wisconsin Milwaukee,1392,750,750,750,750,750
+University POLITEHNICA of Bucharest,1393,750,750,750,750,750
+Vancouver Island University,1394,750,750,750,750,750
+Voronezh State University,1395,750,750,750,750,750
+Western Michigan University,1396,750,750,750,750,750
+Yamaguchi University,1397,750,750,750,750,750
+Yogyakarta State University,1398,750,750,750,750,750
+Youngsan University,1399,750,750,750,750,750
+Yuan Ze University,1400,750,750,750,750,750
+Zagazig University,1401,750,750,750,750,750
+Don State Technical University,1402,750,750,750,750,750
+Akdeniz Üniversitesi,1403,750,750,750,750,750
+California Polytechnic State University,1404,750,750,750,750,750
+California State University - Los Angeles,1405,750,750,750,750,750
+"California State University, Long Beach",1406,750,750,750,750,750
+Católica de Córdoba,1407,750,750,750,750,750
+East West University,1408,750,750,750,750,750
+Fundación Universidad De Bogotá-Jorge Tadeo Lozano,1409,750,750,750,750,750
+Humboldt State University,1410,750,750,750,750,750
+Illinois State University,1411,750,750,750,750,750
+"Indian Institute of Information Technology, Allahabad",1412,750,750,750,750,750
+Indiana State University,1413,750,750,750,750,750
+International University of Business Agriculture and Technology,1414,750,750,750,750,750
+Irkutsk State University,1415,750,750,750,750,750
+Korkyt Ata Kyzylorda University,1416,750,750,750,750,750
+Kwansei Gakuin University,1417,750,750,750,750,750
+Lucian Blaga University of Sibiu,1418,750,750,750,750,750
+M.Kh. Dulaty Taraz Regional University,1419,750,750,750,750,750
+MIREA - Russian Technological University,1420,750,750,750,750,750
+Moscow City University,1421,750,750,750,750,750
+Naresuan University,1422,750,750,750,750,750
+National University of Life and Environmental Sciences of Ukraine,1423,750,750,750,750,750
+"National University of Modern Languages (NUML), Islamabad",1424,750,750,750,750,750
+Nova Southeastern University,1425,750,750,750,750,750
+Pontifícia Universidade Católica de Minas Gerais – PUC Minas,1426,750,750,750,750,750
+Pontificia Universidade Católica do Campinas - PUC Campinas,1427,750,750,750,750,750
+Pontifícia Universidade Católica do Paraná,1428,750,750,750,750,750
+Russian State Agrarian University - Moscow Timiryazev Agricultural Academy,1429,750,750,750,750,750
+Russian State University for the Humanities,1430,750,750,750,750,750
+Sakarya University,1431,750,750,750,750,750
+Shanghai Normal University,1432,750,750,750,750,750
+Shibaura Institute of Technology,1433,750,750,750,750,750
+Silpakorn University,1434,750,750,750,750,750
+Soochow University (Taiwan),1435,750,750,750,750,750
+Soongsil University,1436,750,750,750,750,750
+Stamford University Bangladesh,1437,750,750,750,750,750
+State University of Malang,1438,750,750,750,750,750
+Stefan cel Mare University of Suceava,1439,750,750,750,750,750
+"The University of Notre Dame, Australia",1440,750,750,750,750,750
+Udayana University,1441,750,750,750,750,750
+United International University,1442,750,750,750,750,750
+Universidad Alberto Hurtado,1443,750,750,750,750,750
+Universidad Autónoma de Aguascalientes,1444,750,750,750,750,750
+Universidad Autónoma de Baja California,1445,750,750,750,750,750
+Universidad Autónoma de Chile,1446,750,750,750,750,750
+Universidad Autónoma de Querétaro (UAQ),1447,750,750,750,750,750
+Universidad Autónoma de San Luis de Potosí,1448,750,750,750,750,750
+Universidad Autonoma de Yucatan,1449,750,750,750,750,750
+Universidad Autónoma del Estado de Morelos (UAEM),1450,750,750,750,750,750
+Universidad Bernardo O'Higgins,1451,750,750,750,750,750
+"Universidad Católica Boliviana ""San Pablo""",1452,750,750,750,750,750
+Universidad Católica de Colombia,1453,750,750,750,750,750
+Universidad Católica de La Santísima Concepción - UCSC,1454,750,750,750,750,750
+Universidad Católica de Santiago de Guayaquil,1455,750,750,750,750,750
+Universidad Católica de Temuco,1456,750,750,750,750,750
+Universidad Central de Chile,1457,750,750,750,750,750
+Universidad de Caldas,1458,750,750,750,750,750
+Universidad de Carabobo,1459,750,750,750,750,750
+Universidad de Cartagena,1460,750,750,750,750,750
+Universidad de Córdoba - Colombia,1461,750,750,750,750,750
+Universidad de Cuenca,1462,750,750,750,750,750
+Universidad de Guanajuato,1463,750,750,750,750,750
+Universidad de La Salle,1464,750,750,750,750,750
+Universidad de La Serena,1465,750,750,750,750,750
+Universidad de las Fuerzas Armadas ESPE (Ex - Escuela Politécnica del Ejército),1466,750,750,750,750,750
+Universidad de Medellín,1467,750,750,750,750,750
+Universidad de Santander - UDES,1468,750,750,750,750,750
+Universidad de Sonora,1469,750,750,750,750,750
+Universidad del Cauca,1470,750,750,750,750,750
+Universidad del Valle de Mexico (UVM),1471,750,750,750,750,750
+Universidad Michoacana de San Nicolás de Hidalgo,1472,750,750,750,750,750
+Universidad Nacional de Quilmes,1473,750,750,750,750,750
+Universidad Nacional de Tucumán,1474,750,750,750,750,750
+Universidad Nacional del Comahue,1475,750,750,750,750,750
+UNIVERSIDAD POLITECNICA SALESIANA,1476,750,750,750,750,750
+Universidad Popular Autónoma del Estado de Puebla (UPAEP),1477,750,750,750,750,750
+Universidad San Ignacio de Loyola,1478,750,750,750,750,750
+Universidad Tecnica Particular De Loja (UTPL),1479,750,750,750,750,750
+Universidad Tecnológica de Bolívar,1480,750,750,750,750,750
+"Universidad Tecnológica de la Habana José Antonio Echeverría, Cujae",1481,750,750,750,750,750
+Universidad Tecnológica de Pereira,1482,750,750,750,750,750
+Universidad Veracruzana,1483,750,750,750,750,750
+Universidade do Estado de Santa Catarina,1484,750,750,750,750,750
+Universidade Estadual de Londrina,1485,750,750,750,750,750
+Universidade Federal da Paraíba,1486,750,750,750,750,750
+Universidade Federal de Goiás,1487,750,750,750,750,750
+Universidade Federal de Uberlândia,1488,750,750,750,750,750
+Universidade Federal do Estado do Rio de Janeiro - UNIRIO,1489,750,750,750,750,750
+Universidade Federal do Parà - UFPA,1490,750,750,750,750,750
+Universitas Andalas,1491,750,750,750,750,750
+Universitas Kristen Petra,1492,750,750,750,750,750
+Universitas Muhammadiyah Surakarta,1493,750,750,750,750,750
+Universiti Sains Islam Malaysia,1494,750,750,750,750,750
+University of Central Oklahoma,1495,750,750,750,750,750
+University of Craiova,1496,750,750,750,750,750
+University of Lampung,1497,750,750,750,750,750
+University of Mataram,1498,750,750,750,750,750
+University of Montana Missoula,1499,750,750,750,750,750
+University of Oradea,1500,750,750,750,750,750
+University of San Carlos,1501,750,750,750,750,750
+"University Politehnica of Timisoara, UPT",1502,750,750,750,750,750
+Western Washington University,1503,750,750,750,750,750
